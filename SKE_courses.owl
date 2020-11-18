@@ -8,6 +8,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses">
         <dc:description xml:lang="en">A SKE course ontology that can answer whether a student can register for a certain class.
@@ -62,6 +65,12 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -99,7 +108,7 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#canRegister -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#canRegister">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studentObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
         <rdfs:comment>DO NOT SET. Inferred from SWRL</rdfs:comment>
@@ -107,41 +116,12 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrolledGrade -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasGrade -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrolledGrade">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrollmentSituationObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#EnrollmentSituation"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrolledStudent -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrolledStudent">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrollmentSituationObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#EnrollmentSituation"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrolledSubject -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrolledSubject">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrollmentSituationObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#EnrollmentSituation"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrollmentSituationObjectProperty -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrollmentSituationObjectProperty">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasGrade">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#EnrollmentSituation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
     </owl:ObjectProperty>
     
 
@@ -149,36 +129,64 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasPrerequisite -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasPrerequisite">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subjectObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#NoneType"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasStudent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasStudent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasSubject">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studentObjectProperty -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#mustRegisterWith -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studentObjectProperty">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#mustRegisterWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#NoneType"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#passedSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#passedSubject">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subjectObjectProperty -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subjectObjectProperty">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#worldObjectProperty -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#worldObjectProperty">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#World"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <rdfs:comment>DO NOT SET. inffered</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -197,9 +205,9 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#academicYearEnrolled -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#academicYearEnrolled">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studentDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -207,14 +215,17 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentAcademicSemester -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentAcademicSemester">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#worldDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#World"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Time"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2</xsd:maxInclusive>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -226,18 +237,9 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentAcademicYear -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentAcademicYear">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#worldDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#World"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrollmentSituationDataProperty -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#enrollmentSituationDataProperty">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#EnrollmentSituation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Time"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -245,18 +247,31 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasID -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasID">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subjectDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studentDataProperty -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#semesterAllowed -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studentDataProperty">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#semesterAllowed">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
     </owl:DatatypeProperty>
     
 
@@ -264,14 +279,17 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studiesInYear -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studiesInYear">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studentDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
         <rdfs:range>
             <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
                 <owl:withRestrictions rdf:parseType="Collection">
                     <rdf:Description>
-                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">8</xsd:maxInclusive>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</xsd:maxInclusive>
                     </rdf:Description>
                 </owl:withRestrictions>
             </rdfs:Datatype>
@@ -281,30 +299,12 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subjectDataProperty -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearAllowed -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subjectDataProperty">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearAllowed">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#worldDataProperty -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#worldDataProperty">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#World"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearSemesterAllowed -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearSemesterAllowed">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subjectDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -326,10 +326,18 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#EnrollmentSituation -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#EnrollmentSituation">
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#FailingGrade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#FailingGrade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
     </owl:Class>
     
 
@@ -338,6 +346,28 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#NoneType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#NoneType">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
     </owl:Class>
     
 
@@ -358,17 +388,17 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#ValuePartition -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Time -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#ValuePartition"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#DomainConcept"/>
+    </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#World -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#ValuePartition -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#World">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#DomainConcept"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#ValuePartition"/>
     
 
 
@@ -386,7 +416,7 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade"/>
     </owl:NamedIndividual>
     
 
@@ -394,7 +424,7 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade"/>
     </owl:NamedIndividual>
     
 
@@ -402,7 +432,7 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#C">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade"/>
     </owl:NamedIndividual>
     
 
@@ -410,7 +440,7 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#D -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#D">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade"/>
     </owl:NamedIndividual>
     
 
@@ -418,7 +448,16 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#F -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#F">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#FailingGrade"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Fatalaijon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Fatalaijon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+        <academicYearEnrolled rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</academicYearEnrolled>
     </owl:NamedIndividual>
     
 
@@ -440,12 +479,604 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#NoneType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Now -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Now">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Time"/>
+        <currentAcademicSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</currentAcademicSemester>
+        <currentAcademicYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</currentAcademicYear>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Grade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade"/>
         <rdfs:comment>Passed e.g. ENG</rdfs:comment>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">Visual programming; variables; selection; iteration; methods; arrays; classes;
+object-oriented programming; graphical user interface; data handling.</rdfs:comment>
+        <rdfs:comment xml:lang="th">การเขียนโปรแกรมด้วยภาพ ตัวแปร ทางเลือก การวนรอบ เมทธอด อาเรย์ คลาส
+การโปรแกรมเชิงวัตถุ การติดต่อกับผู้ใช้โดยใช้ภาพสัญลักษณ์ การจัดการข้อมูล</rdfs:comment>
+        <rdfs:label xml:lang="en">Computer Programming I</rdfs:label>
+        <rdfs:label xml:lang="th">การโปรแกรมคอมพิวเตอร์ I</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#C"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#D"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#F"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#I"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219114"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#e">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subj">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#grade">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearEnrolled">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentYear">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#result">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#cYear">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sYear">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passedSubject</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#e"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasStudent"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#e"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasSubject"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#e"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subj"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasGrade"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#e"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#grade"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#PassingGrade"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#grade"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#passedSubject"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#subj"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">studiesInYear</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#academicYearEnrolled"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearEnrolled"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentAcademicYear"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Now"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentYear"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#subtract"/>
+                                                <swrl:arguments rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#result"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentYear"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearEnrolled"/>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studiesInYear"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#result"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canRegister (prerequisites)</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasPrerequisite"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#p"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#p"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#passedSubject"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#p"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearAllowed"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#cYear"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studiesInYear"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sYear"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sYear"/>
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#cYear"/>
+                                                                                </swrl:arguments>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentAcademicSemester"/>
+                                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Now"/>
+                                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem1"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#semesterAllowed"/>
+                                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem2"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                <rdf:first>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem1"/>
+                                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem2"/>
+                                                                                                        </swrl:arguments>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:first>
+                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#canRegister"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canRegister (No prerequisites)</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#hasPrerequisite"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#yearAllowed"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#cYear"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#studiesInYear"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sYear"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sYear"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#cYear"/>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#currentAcademicSemester"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Now"/>
+                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem1"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#semesterAllowed"/>
+                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem2"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem1"/>
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#sem2"/>
+                                                                                        </swrl:arguments>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#canRegister"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
 </rdf:RDF>
 
 
