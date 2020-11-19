@@ -1,7 +1,20 @@
 #!/usr/bin/python3
 import csv
 
+from writer.base import get_student_name
+
 template = ''
+"""
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#{} -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#{}">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+        <academicYearEnrolled rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{}</academicYearEnrolled>
+    </owl:NamedIndividual>
+    
+
+
+"""
 
 
 def main(infile: str, outfile: str):
@@ -10,7 +23,13 @@ def main(infile: str, outfile: str):
 
         all_indivs = []
         for row in data:
-            pass
+            student_name = get_student_name(row['student_id'])
+            individual = template.format(
+                student_name,
+                student_name,
+                row['academic_year_enrolled']
+            )
+            all_indivs.append(individual)
 
         with open(outfile, 'w', encoding='utf-8') as f:
             f.write('\n'.join(all_indivs))
