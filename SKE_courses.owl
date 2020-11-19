@@ -523,6 +523,7 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
         <academicYearEnrolled rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</academicYearEnrolled>
+        <rdfs:label>monaprom</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1493,7 +1494,8 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
         <rdfs:comment xml:lang="en"></rdfs:comment>
         <rdfs:comment xml:lang="th"></rdfs:comment>
-        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label></rdfs:label>
+        <rdfs:label xml:lang="en">Physical Education</rdfs:label>
         <rdfs:label xml:lang="th">กจิกรรมพลศกึษา</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1815,7 +1817,7 @@ in software implementation; software creation that is open for changes in the fu
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
         <rdfs:comment xml:lang="en"></rdfs:comment>
         <rdfs:comment xml:lang="th"></rdfs:comment>
-        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="en">ISP</rdfs:label>
         <rdfs:label xml:lang="th">กระบวนการพฒันาซอฟตแ์วรเ์ชงิเดย่ีว</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2131,7 +2133,7 @@ internet-based system patterns.</rdfs:comment>
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</yearAllowed>
         <rdfs:comment xml:lang="en"></rdfs:comment>
         <rdfs:comment xml:lang="th"></rdfs:comment>
-        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="en">Hands-on Technical Seminar in Software and Knowledge Engineering</rdfs:label>
         <rdfs:label xml:lang="th">สมัมนาเชงิเทคนิคและปฎบิตัทิางวศิวกรรมซอฟตแ์วรแ์ละความรู้</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2196,7 +2198,7 @@ internet-based system patterns.</rdfs:comment>
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</yearAllowed>
         <rdfs:comment xml:lang="en"></rdfs:comment>
         <rdfs:comment xml:lang="th"></rdfs:comment>
-        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="en">English</rdfs:label>
         <rdfs:label xml:lang="th">ภาษาองักฤษ</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2374,7 +2376,7 @@ physics and nuclear physics.</rdfs:comment>
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
         <rdfs:comment xml:lang="en"></rdfs:comment>
         <rdfs:comment xml:lang="th"></rdfs:comment>
-        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="en">Knowledge of the Land</rdfs:label>
         <rdfs:label xml:lang="th">ศาสตรแ์หง่แผน่ดนิ</rdfs:label>
     </owl:NamedIndividual>
     
