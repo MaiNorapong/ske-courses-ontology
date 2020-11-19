@@ -1,43 +1,200 @@
-id,name_th,credits,name_en,year_start,semester
-01219114,การโปรแกรมคอมพวิเตอร์I,3(3-0-6),Computer Programming I,1,1
-01219115,ปฏบิตักิารการโปรแกรมคอมพวิเตอร์I,1(0-3-2),Computer Programming Laboratory I,1,1
-01417167,คณิตศาสตรว์ศิวกรรมI,3(3-0-6),N,1,1
-01420111,ฟิสกิสท์วั่ไปI,3(3-0-6),General Physics I,1,1
-01420113,ปฏบิตักิารฟิสกิส์I,1(0-3-2),N,1,1
-01999111,ศาสตรแ์หง่แผน่ดนิ,2(2-0-4),N,1,1
-01355xxx,ภาษาองักฤษ,3(-,N,1,1
-01204211,คณิตศาสตรเ์ตม็หน่วยและพชีคณิตเชงิเสน้,4(4-0-8),Discrete Mathematics and Linear Algebra,1,2
-01219116,การโปรแกรมคอมพวิเตอร์II,3(3-0-6),Computer Programming II,1,2
-01219117,ปฏบิตักิารการโปรแกรมคอมพวิเตอร์II,1(0-3-2),Computer Programming Laboratory II,1,2
-01417168,คณิตศาสตรว์ศิวกรรมII,3(3-0-6),Engineering Mathematics II,1,2
-01420112,ฟิสกิสท์วั่ไปII,3(3-0-6),General Physics II,1,2
-01420114,ปฏบิตักิารฟิสกิส์II,1(0-3-2),Laboratory in Physics II,1,2
-01175xxx,กจิกรรมพลศกึษา,1(0-2-1),N,1,2
-01355xxx,ภาษาองักฤษ,3(,N,1,2
-01219211,คา่ยฝึกพฒันาซอฟตแ์วร์,1(0-3-2),Software Development Training Camp,2,1
-01219212,ปฏบิตักิารโครงสรา้งขอ้มลูและขนั้ตอนวธิี,1(0-3-2),Data Structure and Algorithm Laboratory,2,1
-01219214,ความน่าจะเป็นและสถติสิาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Probability and Statistics for Software and Knowledge Engineers,2,1
-01219217,โครงสรา้งขอ้มลูและขนั้ตอนวธิีI,3(3-0-6),Data Structure and Algorithm I,2,1
-01219224,สถาปัตยกรรมเครอืขา่ยคอมพวิเตอรแ์ละการโปรแกรม,3(3-0-6),Computer Network Architecture and Programming,2,1
-01219245,กระบวนการพฒันาซอฟตแ์วรเ์ชงิเดย่ีว,3(2-3-6),N,2,1
-01219218,โครงสรา้งขอ้มลูและขนั้ตอนวธิีII,3(3-0-6),Data Structure and Algorithm II,2,2
-01219222,พน้ืฐานของระบบคอมพวิเตอร์,3(3-0-6),Introduction to Computer Systems,2,2
-01219223,ปฏบิตักิารระบบคอมพวิเตอร์,1(0-3-2),Computer System Laboratory,2,2
-01219231,ระบบฐานขอ้มลูสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Database Systems for Software and Knowledge Engineers,2,2
-01219243,ขอ้กาํหนดและการออกแบบซอฟตแ์วร์,3(2-3-6),Software Specification and Design,2,2
-01219266,วศิวกรรมความรแู้ละการจดัการความรู้I,3(3-0-6),Knowledge Engineering and Knowledge Management I,2,2
-01219335,การนําเขา้และรวบรวมขอ้มลู,3(3-0-6),N,3,1
-01219345,ปฏบิตักิารการทวนสอบและการตรวจสอบซอฟตแ์วร์,1(0-3-2),Software Verification and Validation Laboratory,3,1
-01219346,การจดัการกระบวนการและโครงการซอฟตแ์วร์,3(2-3-6),Software Process and Project Management,3,1
-01219366,วศิวกรรมความรแู้ละการจดัการความรู้II,3(3-0-6),Knowledge Engineering and Knowledge Management II,3,1
-01219382,การออกแบบอนัตรกริยิา,3(3-0-6),Interaction Design,3,1
-01219313,ทกัษะการสอ่ืสารสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,1(0-3-2),Communication Skills for Software and Knowledge Engineers,3,2
-01219325,ความมนั่คงปลอดภยัในการพฒันาซอฟตแ์วร์,3(3-0-6),Software Development Security,3,2
-01219367,การวเิคราะหข์อ้มลู,3(3-0-6),Data Analytics,3,2
-01219395,การเตรยีมการโครงงานกลุ่มนวตักรรมซอฟตแ์วร์,1(0-3-2),Innovative Software Group Project Preparation,3,2
-01219412,การเขยีนเชงิเทคนิคสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Technical Writing for Software and Knowledge Engineers,3,2
-01219449,แนวคดิหลกัสาํหรบัสถาปัตยกรรมซอฟตแ์วร์,3(2-3-6),Principle of Software Architecture,3,2
-01219490,สหกจิศกึษา,9,N,4,1
-01219497,สมัมนาเชงิเทคนิคและปฎบิตัทิางวศิวกรรมซอฟตแ์วรแ์ละความรู้,1(0-3-2),N,4,2
-01219499,โครงงานกลุ่มนวตักรรมซอฟตแ์วร์,3(2-3-6),Innovative Software Group Project,4,2
-01355xxx,ภาษาองักฤษ,3(,N,4,2
+id,name_th,credits,name_en,year_start,semester,prereq,coreg,desc_th,desc_en
+01219114,การโปรแกรมคอมพวิเตอร์I,3(3-0-6),Computer Programming I,1,1,"",01219115,"การเขยี นโปรแกรมดว้ ยภาพ  ตวั แปร ทางเลอื ก การวนรอบ เมทธอด อาเรย ์ คลาส 
+การโปรแกรมเชงิ วตั ถุ การตดิ ต่อกบั ผใู้ ชโ้ ดยใชภ้ าพสญั ลกั ษณ์ การจดั การขอ้ มลู","Visual programming; variables; selection; iteration; methods; arrays; classes; 
+object-oriented programming; graphical user interface; data handling."
+01219115,ปฏบิตักิารการโปรแกรมคอมพวิเตอร์I,1(0-3-2),Computer Programming Laboratory I,1,1,"",01219114,"ปฏบิ ตั กิ ารส าหรบั วชิ า 01219114 การโปรแกรมคอมพวิ เตอร ์","I  
+      Laboratory for"
+01417167,คณิตศาสตรว์ศิวกรรมI,3(3-0-6),Engineering Mathematics I,1,1,"",,"ลมิ ติ และความต่อเน่ืองของฟังก์ชนั  อนุพนั ธแ์ ละการประยุกต์ ค่าเชงิ อนุพนั ธ ์ ปรพิ นั ธ์
+และการประยุกต์ ระบบพกิ ดั เชงิ ขวั้  ปรพิ นั ธ์ไม่ตรงแบบ ล าดบั และอนุกรม การอุปนัยเชิง
+คณติ ศาสตร ์","Limits and continuity of functions, derivatives and applications, differentials, 
+integration and applications, polar coordinates , improper integrals, sequences and 
+series, mathematical induction."
+01420111,ฟิสกิสท์วั่ไปI,3(3-0-6),General Physics I,1,1,"",,"กลศาสตร ์ การเคล่อื นทแ่ี บบฮารม์ อนิก คล่นื  กลศาสตรข์ องไหล อุณหพลศาสตร ์","Mechanics, harmonic motion, waves, fluid mechanics, thermodynamics."
+01420113,ปฏบิตักิารฟิสกิส์I,1(0-3-2),Laboratory in Physics I,1,1,"01420111 หรอื พรอ้ มกนั  หรอื  01420117 หรอื พรอ้ มกนั",,"ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป","I"
+01999111,ศาสตรแ์หง่แผน่ดนิ,2(2-0-4)
+01355xxx,ภาษาองักฤษ,3(-
+01204211,คณิตศาสตรเ์ตม็หน่วยและพชีคณิตเชงิเสน้,4(4-0-8),Discrete Mathematics and Linear Algebra,1,2,"",,"เซต ลา  ดบั  และฟังกช์ นั  ตรรกศาสตร ์ การเตบิ โตของฟังกช์ นั  วธิ กี ารพสิ ูจน์และอุปนยั
+วธิ ที างคณติ ศาสตร ์ นิยามและขนั้ ตอนวธิ แี บบเรยี กซ้า    วธิ กี ารนับและความสมั พนั ธแ์ บบ
+ปรากฏซ้า   ความสมั พนั ธ ์ความรเู้ บอ้ื งตน้ เกย่ี วกบั ทฤษฎกี ราฟ  ปรภิ ูมเิวกเตอรแ์ ละการตงั้ ฉาก  
+เมตรกิ ซแ์ ละการน าเสนอระบบเชงิ เสน้ ดว้ ยเมตรกิ ซ ์  การแปลงเชงิ เสน้   คา  ตอบของระบบเชงิ
+เสน้   ระบบไอเกน","Sets, sequences, and functions; logic; the growth of functions; methods of proof 
+and mathematical induction; recursive definitions and algorithms; counting methods 
+and recurrence relations; relations; introduction to graph theory;  vector spaces and 
+orthogonality;    matrices  and  matric  representations  of  linear  systems;    linear 
+transformations; solution of linear systems;  eigensystems."
+01219116,การโปรแกรมคอมพวิเตอร์II,3(3-0-6),Computer Programming II,1,2,"01219114,01219115",01219117,"อนิ ดคั ชนั่ และรเีคอรช์ นั่   การโปรแกรมเชงิ วตั ถุ  เอน็ แค๊ปซเู ลชนั่   การดสิ แพชแบบพล
+วตั ร อนิ เตอเฟส อนิ เฮอรแิ ตนซ ์ ไทป์รอง สภาวะไมป่ กตแิ ละการจดั การ นิพจน์แลมบด์ า แบบ
+แผนการออกแบบซอฟตแ์ วร ์ หลกั การพน้ื ฐานทางวศิ วกรรมซอฟตแ์ วร์","Induction and recursion; object-oriented programming; encapsulation; dynamic 
+dispatching;  interface;  inheritance;  subtyping;  exception  and  exception  handling; 
+lambda expression; design patterns; principles of software engineering."
+01219117,ปฏบิตักิารการโปรแกรมคอมพวิเตอร์II,1(0-3-2),Computer Programming Laboratory II,1,2,"01219114,01219115",01219116,"ปฏบิ ตั กิ ารสา  หรบั วชิ า 01219116 การโปรแกรมคอมพวิ เตอร ์","II  
+    Laboratory for"
+01417168,คณิตศาสตรว์ศิวกรรมII,3(3-0-6),Engineering Mathematics II,1,2,"01417167",,"เวกเตอรแ์ ละเรขาคณติ วเิ คราะหท์ รงตนั  แคลคลู สั ของฟังกช์ นั หลายตวั แปร แคลคลู สั
+ของ ฟังกช์ นั ค่าเวกเตอร ์","Vectors and solid analytic geometry, calculus of multivariables functions, 
+calculus of vectorvalued functions."
+01420112,ฟิสกิสท์วั่ไปII,3(3-0-6),General Physics II,1,2,"01420111",,"ไฟฟ้าแมเ่ หลก็  คล่นื แมเ่ หลก็ ไฟฟ้า ทศั นศาสตร ์ ฟิสกิ สย์ คุ ใหมเ่ บอ้ื งตน้  และนิวเคลยี ร์
+ฟิสกิ ส ์","Electromagnetism,  electromagnetic  waves,  optics,  introduction  to  modern 
+physics and nuclear physics."
+01420114,ปฏบิตักิารฟิสกิส์II,1(0-3-2),Laboratory in Physics II,1,2,"01420113,01420112 หรอื พรอ้ มกนั  หรอื  01420118",,"หรอื พรอ้ มกนั   
+ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป","II"
+01175xxx,กจิกรรมพลศกึษา,1(0-2-1)
+01355xxx,ภาษาองักฤษ,3(
+01219211,คา่ยฝึกพฒันาซอฟตแ์วร์,1(0-3-2),Software Development Training Camp,2,1,"",,"ค่ายเพมิ่ พนู ทกั ษะการพฒั นาโปรแกรมไมต่ ่า  กว่า 48 ชวั่ โมง","Program development skill enhancement camp, at least"
+01219212,ปฏบิตักิารโครงสรา้งขอ้มลูและขนั้ตอนวธิี,1(0-3-2),Data Structure and Algorithm Laboratory,2,1,"01204211, 01219114,01219115",01219217,"ปฏบิ ตั กิ ารส าหรบั วชิ า 01219217 โครงสรา้ งขอ้ มลู และขนั้ ตอนวธิ  ี","I   
+               Laboratory for"
+01219214,ความน่าจะเป็นและสถติสิาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Probability and Statistics for Software and Knowledge Engineers,2,1,"",,"ความน่าจะเป็น ตวั แปรสุ่มไมต่ ่อเน่อื งและต่อเน่อื ง ฟังกช์ นั่ ของตวั แปรสุ่ม ตวั แปรสุ่ม
+หลายตวั   การสุ่มตวั อยา่ ง  การแจกแจงการสุ่มตวั อยา่ ง  สถติ พิ รรณนา การสรา้ งภาพการ
+กระจาย การประมาณค่าพารามเิตอร ์ ช่วงความเช่อื มนั่  การทดสอบสมมตฐิ าน การทดสอบ
+ไคสแควร ์ การวเิ คราะหก์ ารถดถอย  การประยกุ ตก์ บั ปัญหาดา้ นวศิ วกรรมซอฟตแ์ วรแ์ ละ
+ความร ู้","Probability;  discrete  and  continuous  random  variable;  function  of  random 
+variable;  multiple  random  variables;  sampling;  sampling  distribution;  descriptive 
+statistics;  distribution  visualization;  parameter  estimation;  confidence  intervals; 
+hypothesis testing; Chi-square test; regression analysis; application to software and 
+knowledge engineering problems."
+01219217,โครงสรา้งขอ้มลูและขนั้ตอนวธิีI,3(3-0-6),Data Structure and Algorithm I,2,1,"01204211, 01219114,01219115",01219212,"ขอ้ มลู ชนิดนามธรรมพน้ื ฐาน ไดแ้ ก่ กองเรยี บทบั ซอ้ น แถวคอย รายการ ตน้ ไม ้ กราฟ
+เบอ้ื งตน้   การสรา้ งขอ้ มลู นามธรรม  ขนั้ ตอนวธิ พี น้ื ฐานส าหรบั แก้ปัญหา  ไดแ้ ก่  การวเิ คราะห์
+อลั กอรทิ มึ   ความถูกตอ้ งของอลั กอรทิ มึ   การวเิ คราะหค์ วามซบั ซอ้ นของอลั กอรทิ มึ   การ
+ออกแบบอลั กอรทิ มึ ทค่ี รอบคลุมขนั้ ตอนวธิ เี ชงิ ละโมบ และเทคนิคการแบ่งแยกเพ่อื เอาชนะ","Abstract data types:  stack, queues, lists, trees, and graphs; data abstraction; 
+basic algorithms for problem solving: analysis of algorithms, correctness of algorithms, 
+complexity analysis, greedy algorithms, divide-and-conquer techniques."
+01219224,สถาปัตยกรรมเครอืขา่ยคอมพวิเตอรแ์ละการโปรแกรม,3(3-0-6),Computer Network Architecture and Programming,2,1,"",,"หลกั การการส่อื สารขอ้ มลู   สถาปัตยกรรมการส่อื สารและโพรโทคอล  เครอื ขา่ ย
+คอมพวิ เตอรเ์ ฉพาะทแ่ี ละบรเิ วณกวา้ ง  การเช่อื มโยงโครงขา่ ยดว้ ยทซี พี ีไอพแี ละอนิ เทอรเ์ น็ต/
+การโปรแกรมเครอื ข่าย ส่วนต่อประสานโปรแกรมประยกุ ตบ์ นเวบ็  เทคโนโลยดี า้ นเครอื ขา่ ยท่ี
+เกย่ี วขอ้ งและเทคโนโลยสี มยั ใหม่","Principle of data communication; communication architecture and protocols; 
+local and wide area networks; internetworking with TCP/IP and the internet; network 
+programming; web application programming interface; related and emerging network 
+technologies."
+01219245,กระบวนการพฒันาซอฟตแ์วรเ์ชงิเดย่ีว,3(2-3-6)
+01219218,โครงสรา้งขอ้มลูและขนั้ตอนวธิีII,3(3-0-6),Data Structure and Algorithm II,2,2,"01219217",,"ขอ้ มลู ชนิดนามธรรมพน้ื ฐาน ไดแ้ ก่ การทา  แฮชชงิ่  ดกิ ชนั นาร ีแถวคอยแบบมลี  าดบั  
+ขนั้ ตอนวธิ ใี นสา  หรบั แกป้ ัญหาทซ่ี บั ซอ้ นยงิ่ ขน้ึ  ไดแ้ ก่ การหาระยะทางสนั้ ทส่ี ุด ปัญหาตน้ ไม ้
+สแปน  การโปรแกรมแบบพลวตั  ิ ปัญหาเชงิ การจดั  ปัญหากราฟ ปัญหาเอน็ พบี รบิ ูรณ์","Abstract data types: hashing, dictionary, priority queue; design and analysis 
+of  algorithm:  shortest  path  problem,  minimum  spanning  tree  problem,  dynamic 
+programming, network flow, NP-completeness."
+01219222,พน้ืฐานของระบบคอมพวิเตอร์,3(3-0-6),Introduction to Computer Systems,2,2,"01219114,01219115",01219223,"การจดั การและการแทนขอ้ มลู ในระดบั ล่าง  โครงสรา้ งของฮารด์ แวรพ์ น้ื ฐานในการ
+คา  นวณ โปรเซสและเทรด การซงิ โครไนซแ์ ละการโปรแกรมแบบขนาน ระบบหน่วยความจา   
+ระบบไฟล ์ พน้ื ฐานระบบการคา  นวณแบบกระจาย","Low-level  information  organization  and  representation;  fundamentals  of 
+computing hardware organization; processes and threads; synchronization and parallel 
+programming; memory systems; file systems; introduction to distributed systems."
+01219223,ปฏบิตักิารระบบคอมพวิเตอร์,1(0-3-2),Computer System Laboratory,2,2,"",01219222,"ปฏบิ ตั กิ ารสา  หรบั วชิ า 01219222 พน้ื ฐานของระบบคอมพวิ เตอร ์","Laboratory for"
+01219231,ระบบฐานขอ้มลูสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Database Systems for Software and Knowledge Engineers,2,2,"01219217",,"โมเดลข้อมูลและโมเดลแบบองค์ประกอบและความสัมพันธ์ โมเดลข้อมูลแบบ
+ความสมั พนั ธ ์ ภาษาเอสควิ แอลและการประมวลผลการเรยี กค้นขอ้ มลู   เง่อื นไข มุมมองและ
+ดชั นี  ทฤษฎกี ารออกแบบฐานขอ้ มลู และการท าให้เป็นมาตรฐาน  รายการเปลย่ี นแปลงและ
+การท างานในภาวะพรอ้ มกนั   หน่วยเกบ็ ขอ้ มลู และโครงสรา้ งแฟ้ม  โมเดลวตั ถุความสมั พนั ธ์  
+ฐานขอ้ มลู ทไ่ี มไ่ ดเ้ ป็นแบบเอสควิ แอล  การพฒั นาโปรแกรมประยกุ ตฐ์ านขอ้ มลู","Data modeling and the entity-relationship models; relational data models; SQL 
+and query processing; constraints, views, and indexes; database design theory and 
+normalization; transaction and concurrency; storage and file structures; object-relational 
+model; NoSQL databases; database application development."
+01219243,ขอ้กาํหนดและการออกแบบซอฟตแ์วร์,3(2-3-6),Software Specification and Design,2,2,"01219116,01219117",,"การวเิ คราะห์ความต้องการและขอ้ ก าหนดในการพฒั นาซอฟต์แวร ์ การประยุกต์ใช้
+ขนั้ ตอนในการพฒั นาซอฟต์แวร์ การออกแบบซอฟต์แวร์เพ่อื รองรบั กบั ความต้องการและ
+ขอ้ ก าหนด การประยุกต์ใช้รูปแบบการออกแบบเพ่อื การออกแบบซอฟต์แวร ์ การใช้รูปแบบ
+การออกแบบเพ่ือพฒั นาซอฟต์แวร์ให้มปี ระสิทธิภ์ าพ การออกแบบซอฟต์แวร์ท่ีสามารถ
+รบั รองกบั ความเปลย่ี นแปลงภายในอนาคตได ้","Software  requirement  analysis  and  specifications;  application  of  software 
+process into development life cycle; software development that accurately fulfills the 
+requirements; use of software principles in the design phase; use of software patterns 
+in software implementation; software creation that is open for changes in the future."
+01219266,วศิวกรรมความรแู้ละการจดัการความรู้I,3(3-0-6),Knowledge Engineering and Knowledge Management I,2,2,"",,"ลกั ษณะเฉพาะของความร ู้ แนวคดิ และกระบวนการเกบ็ เกย่ี วความร ู้ แหล่งความร ู้
+สถาปัตยกรรมของระบบองิ ความร ู้ เครอ่ื งมอื สา  หรบั วศิ วกรรมความร ู้ วฏั จกั รของความร ู้ การ
+จดั การความร ู้ กระบวนการจดั การความร ู้ โอกาสในการจดั การความรใู้ นองคก์ รขนาดใหญ่        
+กลยทุ ธก์ ารจดั การความร ู้ เทคนิคและเครอ่ื งมอื การจดั การความร ู้ ความสมั พนั ธร์ ะหว่าง
+วฒั นธรรมองคก์ รกบั การจดั การความร ู้","Knowledge  characteristics;  concept  and  process  of  knowledge  acquisition; 
+knowledge sources architecture of knowledge-based system; knowledge engineering 
+tools; knowledge cycle, knowledge management; knowledge management processes; 
+knowledge  management  strategies;  knowledge  management  tools  and  techniques; 
+relations between organizational culture and knowledge management."
+01219335,การนําเขา้และรวบรวมขอ้มลู,3(3-0-6),Data Acquisition and Integration,3,1,"01219231",,"ประเภทของขอ้ มลู   ขอ้ มลู แอนะลอ็ กและดจิ ทิ ลั   การจดั เกบ็ ขอ้ มลู   การเกบ็ ขอ้ มลู
+ระยะไกล ไอโอท ีแบบสอบถามและแบบสา  รวจ  ชา  ระขอ้ มลู เบอ้ื งตน้  ตวั เช่อื มต่อขอ้ มลู  การสุ่ม
+ขอ้ มลู   ตวั แปลงขอ้ มลู   การจดั การขอ้ มลู หลายแหล่ง  การเช่อื มต่อกบั ฐานขอ้ มลู   การอธบิ าย
+ขอ้ มลู ดว้ ยภาพ","Data types; analog and digital data; data collection; remote data acquisition; 
+IoT; questionnaire and survey; data cleansing; data connectivity; data sampling; data    
+transformation; data source management; database connectivity; data visualization."
+01219345,ปฏบิตักิารการทวนสอบและการตรวจสอบซอฟตแ์วร์,1(0-3-2),Software Verification and Validation Laboratory,3,1,"01219245",,"มโนทศั น์พน้ื ฐานเกย่ี วกบั การทวนสอบและการตรวจสอบซอฟตแ์ วร ์ การทดสอบท่ี
+ระดบั ชน้ิ ส่วน การทดสอบการเช่อื มต่อ การทดสอบระบบและการทดสอบการยอมรบั ของผใู้ ช ้
+การวเิ คราะหค์ วามครอบคลุม  การทดสอบเชงิ ไมเ่ ป็นฟังกช์ นั่   เทคนิคการทบทวน  การ
+วเิ คราะหซ์ อฟตแ์ วรเ์ ชงิ สถติ ย ์ การรายงานความผดิ พลาด","Basic  concepts  of  software  verification  and  validation;  component  testing; 
+integration testing; system testing and user acceptance testing; coverage analysis;    
+non-functional testing;  review techniques;  static analysis of software; defect reporting."
+01219346,การจดัการกระบวนการและโครงการซอฟตแ์วร์,3(2-3-6),Software Process and Project Management,3,1,"01219116,01219117",,"การจดั การกระบวนการและโครงการซอฟตแ์ วร ์ การก าหนดแผน  ตารางเวลา 
+งบประมาณ และ ทรพั ยากรการแตกแผนการท างาน การตดิ ตามและควบคุม การวดั และการ
+วเิ คราะห ์ การควบคุมโครงแบบ การทดสอบ และ ขนั้ ตอนการพฒั นาซอฟตแ์ วร์","Standard processes to manage software project; timeline, budget and resource 
+planning; work breakdown structure; project monitoring and control; measurement and 
+analysis; configuration management; test and deployment steps."
+01219366,วศิวกรรมความรแู้ละการจดัการความรู้II,3(3-0-6),Knowledge Engineering and Knowledge Management II,3,1,"01219266",,"หลกั การพน้ื ฐานการแทนความรใู้ หอ้ ยใู่ นรปู ทค่ี อมพวิ เตอรส์ ามารถประมวลผลไดแ้ ละ
+การหาเหตุผล  คุณลกั ษณะตวั แทนความร ู้ ขอ้ ไดเ้ ปรยี บและขอ้ จา  กดั ของตวั แทนความรแู้ บบ
+ต่างๆ เช่น กฎตรรกศาสตร ์การคา  นวณเชงิ เพรดเิ คต การแทนความรแู้ บบคลุมเครอื  โครงขา่ ย
+ความหมาย  เฟรม  การแทนความรโู้ ดยใชภ้ ววทิ ยา  กระบวนการแทนความรแู้ บบไมม่ ี
+โครงสรา้ ง ใหอ้ ยใู่ นรปู แบบของตวั แทนความรู้","Basic  principle  of  knowledge  representation  and  its  reasoning  tasks; 
+characteristics, advantage, and limitations of various knowledge representation: logic, 
+predicate  calculus,  fuzzy  logic,  semantic  networks,  frame,  ontology;  process  of 
+transforming unstructured knowledge to knowledge representation."
+01219382,การออกแบบอนัตรกริยิา,3(3-0-6),Interaction Design,3,1,"01219243",,"แนวคดิ เชงิ จติ วทิ ยาของผใู้ ช ้ การพฒั นาประสบการณ์ของผใู้ ช ้ การออกแบบและสรา้ ง
+ระบบตดิ ต่อระหว่างผใู้ ชก้ บั คอมพวิ เตอร ์อตั รกริ ยิ าของฮารด์ แวรแ์ ละซอฟตแ์ วร ์ อตั รกริ ยิ าของ
+ระบบงาน  เครอ่ื งมอื สา  หรบั การพฒั นา  การประเมนิ คุณภาพ  โมเดลของเวลาการตอบสนอง 
+การท าค่มู อื","Psychological concept on interaction; user-experience design; human-computer 
+interface  design;  software  interaction;  hardware  interaction;  system  interaction; 
+development  tools;  interaction  assessment;  response-time  model;  user  document 
+development."
+01219313,ทกัษะการสอ่ืสารสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,1(0-3-2),Communication Skills for Software and Knowledge Engineers,3,2,"",,"แนวคดิ หลกั ของการส่อื สาร การส่อื สารภายในกลุ่มงาน การส่อื สารกบั ลูกค้าและผู้มี
+ส่วนได้ส่วนเสยี  รูปแบบการส่อื สารเชงิ กลยุทธ์เพ่อื ระบุวตั ถุประสงค์และวเิ คราะห์ผู้ฟัง การ
+ออกแบบขอ้ ความส าหรบั ผู้ฟังท่มี คี วามหลากหลายและวธิ นี  าเสนอขอ้ มูลดงั กล่าวด้วยความ
+น่าเช่อื ถอื  การฝึกปฏบิ ตั กิ ารในสถานการณ์ต่าง ๆ ท่เี ก่ยี วขอ้ งในสาขาวศิ วกรรมซอฟต์แวร์
+และความร ู้","Principle  concepts  of  communication;  communication  within  the  teams; 
+communication with customers and stakeholders; strategic communication model to 
+identify  objectives,  analyze  audience;  message  design  for  diverse  and  resistant 
+audiences and information presentation in a credible and convincing way; practices in 
+various situations related to topics in the software and knowledge engineering field."
+01219325,ความมนั่คงปลอดภยัในการพฒันาซอฟตแ์วร์,3(3-0-6),Software Development Security,3,2,"01219243",,"ปรชั ญาและหลกั การด้านการรกั ษาความมนั่ คงปลอดภยั สารสนเทศ มาตรฐานด้าน
+การรกั ษาความมนั่ คงปลอดภยั สารสนเทศ ความสมั พนั ธร์ ะหว่างความต้องการทางธุรกิจกบั
+ความต้องการด้านความมงั่ คงปลอดภยั ของซอฟต์แวร์ ความสมั พนั ธ์ระหว่างนโยบายด้าน
+ความมัน่ คงสารสนเทศกับความต้องการด้านความมัง่ คงปลอดภัยของซอฟต์แวร์ 
+สถาปัตยกรรมระบบสารสนเทศระดบั องคก์ รและส่วนขยายดา้ นการรกั ษาความมงั่คงปลอดภยั  
+การออกแบบซอฟต์แวร์ให้มคี วามมนั่ คงปลอดภยั  การเขยี นเน้ือโปรแกรมให้มคี วามมนั่ คง
+ปลอดภยั  การทดสอบความมนั่ คงปลอดภยั ของซอฟต์แวร ์ การตดิ ตงั้ และปรบั แต่งซอฟต์แวร์
+อย่างมนั่ คงปลอดภยั  วธิ ปี ฏบิ ตั ิท่ดี ที ่สี ุดในปัจจุบนั เก่ยี วกบั การรกั ษาความมนั่ คงปลอดภัย
+ซอฟต์แวร์ กฎหมายเก่ียวข้องกับระบบสารสนเทศ กฎหมายเก่ียวข้องกับวิชาชีพด้าน
+สารสนเทศ จรรยาบรรณวชิ าชพี  ความเป็นมอื อาชพี","Philosophies  and  principles  of  information  security;  information  security 
+standards;  relationships  between  business  requirements  and  software  security 
+requirements; relationships between information security policies and software security 
+requirements; enterprise (information system) architecture and its security extension; 
+secure software design; secure coding; software security testing; secure software 
+installation  and  configuration;  current  best  practices  in  software  security;  laws 
+concerning information systems; laws concerning IT professionals, code of ethics; 
+professionalism."
+01219367,การวเิคราะหข์อ้มลู,3(3-0-6),Data Analytics,3,2,"01219366",,"แนวคดิ พน้ื ฐานของการวเิ คราะหข์ อ้ มลู  เทคนิคและแบบจา  ลอง ประเดน็ ดา้ นจรยิ ธรรม
+และความเป็นส่วนตวั   ชุดซอฟตแ์ วรเ์ หมอื งขอ้ มลู   วธิ กี ารท าเหมอื งขอ้ มลู   เทคนิคการเตรยี ม
+ขอ้ มลู  เทคนิคการจดั กลุ่มขอ้ มลู  เทคนิคการแบ่งกลุ่มขอ้ มลู  เทคนิคการคน้ หาความสมั พนั ธบ์ น
+ขอ้ มลู  การประยกุ ตก์ ารทา  เหมอื งขอ้ มลู  การวเิ คราะหข์ อ้ มลู ทม่ี รี ปู แบบซบั ซอ้ น การวเิ คราะห์
+ขอ้ มลู ขนาดใหญ่มาก แนวโน้มและทศิ ทางของเทคนิคการวเิ คราะหข์ อ้ มลู","Basic concepts of data analytics; techniques and models; ethics and privacy 
+issues; data mining software suite; data mining methodologies; data pre-processing 
+techniques; data regression and classification techniques; data clustering techniques; 
+link  and  association  discovery  techniques,  data  mining  applications;  implementing 
+analytics within an organization; un-structured and complex data analytics; big data 
+analytics; data analytics trends."
+01219395,การเตรยีมการโครงงานกลุ่มนวตักรรมซอฟตแ์วร์,1(0-3-2),Innovative Software Group Project Preparation,3,2,"",,"การออกแบบและการจดั การโครงงานวศิ วกรรม การเขยี นรายงานวชิ าการ การตรวจ
+และอา้ งองิ เอกสารวชิ าการ  การน าเสนอรายงานวชิ าการ    การเตรยี มขอ้ เสนอโครงงาน
+วศิ วกรรมคอมพวิ เตอร ์ การน าเสนอหวั ขอ้ โครงงาน","Design and management of software group projects; technical report writing; 
+literature  review  and  reference;  technical  report  presentation;  preparation  for  a 
+computer engineering project proposal; presentation of the project proposal."
+01219412,การเขยีนเชงิเทคนิคสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Technical Writing for Software and Knowledge Engineers,3,2,"",,"วธิ เี ขยี นบทความทวั่ ไป  ขอ้ เสนอโครงงาน  รายงานความคบื หน้าและรายงานสรุป
+โครงงาน  การแสดงผลลพั ธ ์ บทสรปุ   บทวจิ ารณ์  รายงานวจิ ยั   การทบทวนงานวจิ ยั  
+บรรณานุกรม  เครอ่ื งมอื ซอฟตแ์ วรส์ า  หรบั การตรวจแก้และการส่งผลงาน  วธิ กี ารระดมสมอง
+สา  หรบั การเขยี น    การเรยี บเรยี งความคดิ   การรา่ งแผนการเขยี น  การตรวจแก ้ การพสิ ูจน์
+อกั ษร  การทบทวนโดยผรู้ เู้ สมอกนั     การเรยี บเรยี งใหม ่ การประชุมรว่ มกนั เพ่อื รวบรวม
+ขอ้ เสนอแนะของงานเขยี นระหว่างผเู้ รยี นและผสู้ อน","General  text  writing;  project  proposal;  progress  and  final  report;  result 
+documentary;  summary;  critique;  research  paper;  literature  review;  bibliography; 
+software  tools  for  editing  and  submission  systems;  writing  brainstorm;  idea 
+organization; outlining; editing and proof reading; peer review; rewriting; feedback 
+conference between teacher and student."
+01219449,แนวคดิหลกัสาํหรบัสถาปัตยกรรมซอฟตแ์วร์,3(2-3-6),Principle of Software Architecture,3,2,"01219116,01219117",,"กระบวนการสถาปัตยกรรมซอฟต์แวร์  ลกั ษณะประจ าเชงิ คุณภาพของซอฟต์แวร์   
+การเขยี นเอกสารสถาปัตยกรรมซอฟต์แวร์   สถาปัตยกรรมท่ขี บั เคล่อื นด้วยแบบจ าลอง   
+สถาปัตยกรรมเชงิ การบรกิ าร   รปู แบบการออกแบบเชงิ สถาปัตยกรรม   รปู แบบสา  หรบั วตั ถุ
+แบบเครือข่ายท่ีท างานจวบกัน  รูปแบบส าหรับระบบองค์ แบบรูปส าหรับระบบอิง 
+อนิ เทอรเ์ น็ต","Software architecture process; software quality attributes; software architecture 
+documentation; model-driven architecture; service-oriented architecture; architectural 
+design patterns; concurrent and networked object patterns; enterprise system patterns; 
+internet-based system patterns."
+01219490,สหกจิศกึษา,9,Cooperative Education,4,1,"",,"การปฏบิ ตั งิ านในลกั ษณะพนักงานชวั่ คราวตามโครงการทไ่ี ดร้ บั มอบหมาย ตลอดจน
+การจดั ทา  รายงานและการน าเสนอ","On the job training as a temporary according to the assigned project including 
+     Report and presentation."
+01219497,สมัมนาเชงิเทคนิคและปฎบิตัทิางวศิวกรรมซอฟตแ์วรแ์ละความรู้,1(0-3-2)
+01219499,โครงงานกลุ่มนวตักรรมซอฟตแ์วร์,3(2-3-6),Innovative Software Group Project,4,2,"01219395,01219490",,"","("
+01355xxx,ภาษาองักฤษ,3(
