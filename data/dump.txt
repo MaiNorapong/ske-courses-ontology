@@ -1,0 +1,1211 @@
+มคอ. 2 
+3.1.5  คำ  อธิบำยรำยวิชำ 
+3.1.5.1 รายวชิ าทเ่ี ป็นรหสั วชิ าของหลกั สตู ร  
+01219114*  การโปรแกรมคอมพวิ เตอร ์ I                        3(3-0-6) 
+  (Computer Programming  I) 
+  วชิ าทต่ี อ้ งเรยี นพรอ้ มกนั  01219115  
+การเขยี นโปรแกรมดว้ ยภาพ  ตวั แปร ทางเลอื ก การวนรอบ เมทธอด อาเรย ์ คลาส 
+การโปรแกรมเชงิ วตั ถุ การตดิ ต่อกบั ผใู้ ชโ้ ดยใชภ้ าพสญั ลกั ษณ์ การจดั การขอ้ มลู  
+ Visual programming; variables; selection; iteration; methods; arrays; classes; 
+object-oriented programming; graphical user interface; data handling.   
+   
+01219115*   ปฏบิ ตั กิ ารการโปรแกรมคอมพวิ เตอร ์ I                               1(0-3-2) 
+                      (Computer Programming  Laboratory I) 
+      วชิ าทต่ี อ้ งเรยี นพรอ้ มกนั  01219114  
+ ปฏบิ ตั กิ ารส าหรบั วชิ า 01219114 การโปรแกรมคอมพวิ เตอร ์ I  
+      Laboratory for 01219114 Computer Programming  Laboratory I 
+ 
+01219116*   การโปรแกรมคอมพวิ เตอร ์ II                       3(3-0-6) 
+    (Computer Programming II) 
+                     วชิ าทต่ี อ้ งเรยี นมาก่อน 01219114 และ 01219115 
+        วชิ าทต่ี อ้ งเรยี นพรอ้ มกนั  01219117 
+ อนิ ดคั ชนั่ และรเีคอรช์ นั่   การโปรแกรมเชงิ วตั ถุ  เอน็ แค๊ปซเู ลชนั่   การดสิ แพชแบบพล
+วตั ร อนิ เตอเฟส อนิ เฮอรแิ ตนซ ์ ไทป์รอง สภาวะไมป่ กตแิ ละการจดั การ นิพจน์แลมบด์ า แบบ
+แผนการออกแบบซอฟตแ์ วร ์ หลกั การพน้ื ฐานทางวศิ วกรรมซอฟตแ์ วร์ 
+  Induction and recursion; object-oriented programming; encapsulation; dynamic 
+dispatching;  interface;  inheritance;  subtyping;  exception  and  exception  handling; 
+lambda expression; design patterns; principles of software engineering. 
+ 
+01219117*  ปฏบิ ตั กิ ารการโปรแกรมคอมพวิ เตอร ์ II                           1(0-3-2) 
+    (Computer Programming Laboratory II) 
+        วชิ าทต่ี อ้ งเรยี นมาก่อน 01219114 และ 01219115 
+    วชิ าตอ้ งทเ่ี รยี นพรอ้ มกนั  01219116 
+ปฏบิ ตั กิ ารสา  หรบั วชิ า 01219116 การโปรแกรมคอมพวิ เตอร ์ II  
+    Laboratory for 01219116 Computer Programming II 
+ 
+*วชิ าเปิดใหม่ 
+ 
+01219211  ค่ายฝึกพฒั นาซอฟตแ์ วร ์       1(0-3-2) 
+    (Software Development Training Camp) 
+ค่ายเพมิ่ พนู ทกั ษะการพฒั นาโปรแกรมไมต่ ่า  กว่า 48 ชวั่ โมง  
+Program development skill enhancement camp, at least  48 person-hours.  
+ 
+01219212**  ปฏบิ ตั กิ ารโครงสรา้ งขอ้ มลู และขนั้ ตอนวธิ  ี    1(0-3-2) 
+    (Data Structure and Algorithm Laboratory) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01204211, 01219114 และ 01219115 
+    วชิ าทต่ี อ้ งเรยี นพรอ้ มกนั  01219217 
+          ปฏบิ ตั กิ ารส าหรบั วชิ า 01219217 โครงสรา้ งขอ้ มลู และขนั้ ตอนวธิ  ี I   
+               Laboratory for 01219217 Data Structure and Algorithm I 
+ 
+01219214**  ความน่าจะเป็นและสถติ สิ า  หรบั วศิ วกรซอฟตแ์ วรแ์ ละความร ู้      3(3-0-6) 
+    (Probability and Statistics for Software and Knowledge Engineers) 
+    ความน่าจะเป็น ตวั แปรสุ่มไมต่ ่อเน่อื งและต่อเน่อื ง ฟังกช์ นั่ ของตวั แปรสุ่ม ตวั แปรสุ่ม
+หลายตวั   การสุ่มตวั อยา่ ง  การแจกแจงการสุ่มตวั อยา่ ง  สถติ พิ รรณนา การสรา้ งภาพการ
+กระจาย การประมาณค่าพารามเิตอร ์ ช่วงความเช่อื มนั่  การทดสอบสมมตฐิ าน การทดสอบ
+ไคสแควร ์ การวเิ คราะหก์ ารถดถอย  การประยกุ ตก์ บั ปัญหาดา้ นวศิ วกรรมซอฟตแ์ วรแ์ ละ
+ความร ู้
+Probability;  discrete  and  continuous  random  variable;  function  of  random 
+variable;  multiple  random  variables;  sampling;  sampling  distribution;  descriptive 
+statistics;  distribution  visualization;  parameter  estimation;  confidence  intervals; 
+hypothesis testing; Chi-square test; regression analysis; application to software and 
+knowledge engineering problems. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+**ปรบั ปรงุ รายวชิ า 
+ 
+ 
+01219217*    โครงสรา้ งขอ้ มลู และขนั้ ตอนวธิ  ี I                    3(3-0-6) 
+        (Data Structure and Algorithm I) 
+        วชิ าทต่ี อ้ งเรยี นมาก่อน 01204211, 01219114 และ 01219115 
+        วชิ าทต่ี อ้ งเรยี นพรอ้ มกนั  01219212 
+ขอ้ มลู ชนิดนามธรรมพน้ื ฐาน ไดแ้ ก่ กองเรยี บทบั ซอ้ น แถวคอย รายการ ตน้ ไม ้ กราฟ
+เบอ้ื งตน้   การสรา้ งขอ้ มลู นามธรรม  ขนั้ ตอนวธิ พี น้ื ฐานส าหรบั แก้ปัญหา  ไดแ้ ก่  การวเิ คราะห์
+อลั กอรทิ มึ   ความถูกตอ้ งของอลั กอรทิ มึ   การวเิ คราะหค์ วามซบั ซอ้ นของอลั กอรทิ มึ   การ
+ออกแบบอลั กอรทิ มึ ทค่ี รอบคลุมขนั้ ตอนวธิ เี ชงิ ละโมบ และเทคนิคการแบ่งแยกเพ่อื เอาชนะ 
+   Abstract data types:  stack, queues, lists, trees, and graphs; data abstraction; 
+basic algorithms for problem solving: analysis of algorithms, correctness of algorithms, 
+complexity analysis, greedy algorithms, divide-and-conquer techniques. 
+ 
+01219218*  โครงสรา้ งขอ้ มลู และขนั้ ตอนวธิ  ี II                                     3(3-0-6) 
+    (Data Structure and Algorithm II) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01219217 
+ขอ้ มลู ชนิดนามธรรมพน้ื ฐาน ไดแ้ ก่ การทา  แฮชชงิ่  ดกิ ชนั นาร ีแถวคอยแบบมลี  าดบั  
+ขนั้ ตอนวธิ ใี นสา  หรบั แกป้ ัญหาทซ่ี บั ซอ้ นยงิ่ ขน้ึ  ไดแ้ ก่ การหาระยะทางสนั้ ทส่ี ุด ปัญหาตน้ ไม ้
+สแปน  การโปรแกรมแบบพลวตั  ิ ปัญหาเชงิ การจดั  ปัญหากราฟ ปัญหาเอน็ พบี รบิ ูรณ์      
+Abstract data types: hashing, dictionary, priority queue; design and analysis 
+of  algorithm:  shortest  path  problem,  minimum  spanning  tree  problem,  dynamic 
+programming, network flow, NP-completeness. 
+ 
+01219222*  พน้ื ฐานของระบบคอมพวิ เตอร ์                     3(3-0-6) 
+                     (Introduction to Computer Systems) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01219114 และ 01219115 
+    วชิ าทต่ี อ้ งเรยี นพรอ้ มกนั  01219223  
+      การจดั การและการแทนขอ้ มลู ในระดบั ล่าง  โครงสรา้ งของฮารด์ แวรพ์ น้ื ฐานในการ
+คา  นวณ โปรเซสและเทรด การซงิ โครไนซแ์ ละการโปรแกรมแบบขนาน ระบบหน่วยความจา   
+ระบบไฟล ์ พน้ื ฐานระบบการคา  นวณแบบกระจาย 
+            Low-level  information  organization  and  representation;  fundamentals  of 
+computing hardware organization; processes and threads; synchronization and parallel 
+programming; memory systems; file systems; introduction to distributed systems. 
+ 
+*วชิ าเปิดใหม่ 
+ 
+ 
+01219223**  ปฏบิ ตั กิ ารระบบคอมพวิ เตอร ์    1(0-3-2) 
+    (Computer System Laboratory) 
+    วชิ าทต่ี อ้ งเรยี นพรอ้ มกนั  01219222  
+              ปฏบิ ตั กิ ารสา  หรบั วชิ า 01219222 พน้ื ฐานของระบบคอมพวิ เตอร ์  
+            Laboratory for 01219222 Introduction to Computer Systems 
+ 
+01219224**  สถาปัตยกรรมเครอื ขา่ ยคอมพวิ เตอรแ์ ละการโปรแกรม       3(3-0-6) 
+    (Computer Network Architecture and Programming)   
+      หลกั การการส่อื สารขอ้ มลู   สถาปัตยกรรมการส่อื สารและโพรโทคอล  เครอื ขา่ ย
+คอมพวิ เตอรเ์ ฉพาะทแ่ี ละบรเิ วณกวา้ ง  การเช่อื มโยงโครงขา่ ยดว้ ยทซี พี ีไอพแี ละอนิ เทอรเ์ น็ต/
+การโปรแกรมเครอื ข่าย ส่วนต่อประสานโปรแกรมประยกุ ตบ์ นเวบ็  เทคโนโลยดี า้ นเครอื ขา่ ยท่ี
+เกย่ี วขอ้ งและเทคโนโลยสี มยั ใหม่ 
+  Principle of data communication; communication architecture and protocols; 
+local and wide area networks; internetworking with TCP/IP and the internet; network 
+programming; web application programming interface; related and emerging network 
+technologies. 
+ 
+01219231*  ระบบฐานขอ้ มลู ส าหรบั วศิ วกรซอฟตแ์ วรแ์ ละความรู้                         3(3-0-6) 
+    (Database Systems for Software and Knowledge Engineers) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน  01219217 
+โมเดลข้อมูลและโมเดลแบบองค์ประกอบและความสัมพันธ์ โมเดลข้อมูลแบบ
+ความสมั พนั ธ ์ ภาษาเอสควิ แอลและการประมวลผลการเรยี กค้นขอ้ มลู   เง่อื นไข มุมมองและ
+ดชั นี  ทฤษฎกี ารออกแบบฐานขอ้ มลู และการท าให้เป็นมาตรฐาน  รายการเปลย่ี นแปลงและ
+การท างานในภาวะพรอ้ มกนั   หน่วยเกบ็ ขอ้ มลู และโครงสรา้ งแฟ้ม  โมเดลวตั ถุความสมั พนั ธ์  
+ฐานขอ้ มลู ทไ่ี มไ่ ดเ้ ป็นแบบเอสควิ แอล  การพฒั นาโปรแกรมประยกุ ตฐ์ านขอ้ มลู  
+Data modeling and the entity-relationship models; relational data models; SQL 
+and query processing; constraints, views, and indexes; database design theory and 
+normalization; transaction and concurrency; storage and file structures; object-relational 
+model; NoSQL databases; database application development. 
+ 
+ 
+ 
+ 
+*วชิ าเปิดใหม่ 
+**ปรบั ปรงุ รายวชิ า 
+01219243**  ขอ้ ก าหนดและการออกแบบซอฟตแ์ วร ์      3(2-3-6) 
+  (Software Specification and Design) 
+ 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01219116 และ 01219117 
+การวเิ คราะห์ความต้องการและขอ้ ก าหนดในการพฒั นาซอฟต์แวร ์ การประยุกต์ใช้
+ขนั้ ตอนในการพฒั นาซอฟต์แวร์ การออกแบบซอฟต์แวร์เพ่อื รองรบั กบั ความต้องการและ
+ขอ้ ก าหนด การประยุกต์ใช้รูปแบบการออกแบบเพ่อื การออกแบบซอฟต์แวร ์ การใช้รูปแบบ
+การออกแบบเพ่ือพฒั นาซอฟต์แวร์ให้มปี ระสิทธิภ์ าพ การออกแบบซอฟต์แวร์ท่ีสามารถ
+รบั รองกบั ความเปลย่ี นแปลงภายในอนาคตได ้
+  Software  requirement  analysis  and  specifications;  application  of  software 
+process into development life cycle; software development that accurately fulfills the 
+requirements; use of software principles in the design phase; use of software patterns 
+in software implementation; software creation that is open for changes in the future. 
+ 
+01219245**    กระบวนการพฒั นาซอฟตแ์ วรเ์ ชงิ เดย่ี ว      3(2- 3-6) 
+      (Individual Software Development Process) 
+      วชิ าทต่ี อ้ งเรยี นมาก่อน 01219114 และ 01219115 
+กระบวนการพฒั นาซอฟตแ์ วรส์ มยั ใหม ่ การพฒั นาแบบวนรอบและแบบค่อยเป็นค่อย
+ไป การวางแผนและประมาณโครงการเดย่ี ว การจดั การเวลา การตดิ ตามเวลา คุณภาพรหสั
+โปรแกรม  การปรบั ปรงุ รหสั โปรแกรม  การตรวจสอบรหสั โปรแกรม  การควบคุมรุ่นของรหสั
+โปรแกรม การทดสอบซอฟตแ์ วรเ์ บอ้ื งตน้  การพฒั นาซอฟตแ์ วรภ์ ายใตก้ รอบงาน 
+Modern software development process; iterative and incremental development; 
+individual project planning and estimation; time management; tracking time, code 
+quality; code refactoring; code review, source code version control; introduction to 
+software testing; software development under a modern framework. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+**ปรบั ปรงุ รายวชิ า 
+ 
+01219266**  วศิ วกรรมความรแู้ ละการจดั การความรู ้ I       3(3-0-6) 
+    (Knowledge Engineering and Knowledge Management I)     
+ 
+ลกั ษณะเฉพาะของความร ู้ แนวคดิ และกระบวนการเกบ็ เกย่ี วความร ู้ แหล่งความร ู้
+สถาปัตยกรรมของระบบองิ ความร ู้ เครอ่ื งมอื สา  หรบั วศิ วกรรมความร ู้ วฏั จกั รของความร ู้ การ
+จดั การความร ู้ กระบวนการจดั การความร ู้ โอกาสในการจดั การความรใู้ นองคก์ รขนาดใหญ่        
+กลยทุ ธก์ ารจดั การความร ู้ เทคนิคและเครอ่ื งมอื การจดั การความร ู้ ความสมั พนั ธร์ ะหว่าง
+วฒั นธรรมองคก์ รกบั การจดั การความร ู้  
+Knowledge  characteristics;  concept  and  process  of  knowledge  acquisition; 
+knowledge sources architecture of knowledge-based system; knowledge engineering 
+tools; knowledge cycle, knowledge management; knowledge management processes; 
+knowledge  management  strategies;  knowledge  management  tools  and  techniques; 
+relations between organizational culture and knowledge management. 
+ 
+01219312*  การโปรแกรมแบบฟังกช์ นั่                 3(3-0-6) 
+    (Functional Programming) 
+      นิพจน์  การประเมนิ ผล  ฟังกช์ นั่   แนวคดิ เรอ่ื งชนิดของขอ้ มลู   อนิ ดกั ชนั่ และรเีคอชนั่  
+ฟังกช์ นั่ ระดบั สงู   โพลมี อฟิสซม่ึ   ปฏบิ ตั กิ ารพน้ื ฐานบนลสิ ต์  แมปรดี วิ ซ ์ การลดรปู ล าดบั แบบ
+ปกต ิ การประเมนิ ผลแบบเฉ่ือยชา โมเดลเรอ่ื งราคาแบบงา่ ย ความซบั ซอ้ นของเวลาและพน้ื ท่ ี
+    Expression; evaluation; functions; notion of types; induction and recursion; 
+higher-order functions; polymorphism; basic list operations; map-reduce; normal order 
+reduction and lazy evaluation; simple cost models for functional programs; time and 
+space complexity. 
+ 
+01219313**  ทกั ษะการส่อื สารสา  หรบั วศิ วกรซอฟตแ์ วรแ์ ละความร ู้   1(0-3-2) 
+    (Communication Skills for Software and Knowledge Engineers) 
+      แนวคดิ หลกั ของการส่อื สาร การส่อื สารภายในกลุ่มงาน การส่อื สารกบั ลูกค้าและผู้มี
+ส่วนได้ส่วนเสยี  รูปแบบการส่อื สารเชงิ กลยุทธ์เพ่อื ระบุวตั ถุประสงค์และวเิ คราะห์ผู้ฟัง การ
+ออกแบบขอ้ ความส าหรบั ผู้ฟังท่มี คี วามหลากหลายและวธิ นี  าเสนอขอ้ มูลดงั กล่าวด้วยความ
+น่าเช่อื ถอื  การฝึกปฏบิ ตั กิ ารในสถานการณ์ต่าง ๆ ท่เี ก่ยี วขอ้ งในสาขาวศิ วกรรมซอฟต์แวร์
+และความร ู้
+         Principle  concepts  of  communication;  communication  within  the  teams; 
+communication with customers and stakeholders; strategic communication model to 
+identify  objectives,  analyze  audience;  message  design  for  diverse  and  resistant 
+audiences and information presentation in a credible and convincing way; practices in 
+various situations related to topics in the software and knowledge engineering field. 
+ 
+ 
+*วชิ าเปิดใหม่ 
+**ปรบั ปรงุ รายวชิ า 
+01219322  วศิ วกรรมพาณิชยอ์ เิ ลก็ ทรอนิกส ์      3(3-0-6) 
+    (Electronic Commerce Engineering) 
+ 
+เทคโนโลยพี าณิชยอ์ เิ ลก็ ทรอนิกส ์ การพฒั นาและสรา้ งระบบพาณิชยอ์ เิ ลก็ ทรอนิกส ์
+เทคโนโลยเีครอื ข่ายและทศิ ทางในอนาคต เทคโนโลยฐี านขอ้ มลู  การเช่อื มต่อระหว่างเวบ็ และ
+ฐานขอ้ มูล ประเดน็ ด้านความมนั่ คง ระบบจ่ายเงนิ อเิ ล็กทรอนิกส์ ข่าวกรองทางธุรกิจ การ
+จดั การความเช่อื ถือ ตวั แทนการค้า ความเป็นส่วนตวั  ผลติ ภณั ฑ์ทางสารสนเทศและการ
+ป้องกนั การลอกเลยี น ความไมเ่ ท่าเทยี มเชงิ ดจิ ทิ ลั  
+Electronic commerce technology; electronic commerce system development 
+and implementation;  networking technologies and their future directions; database 
+technologies; database-web connectivity; security-related issues; electronic payment 
+systems; business intelligence; trust management; trading agents; privacy; information 
+products and copy protection; digital devide. 
+ 
+01219325*  ความมนั่ คงปลอดภยั ในการพฒั นาซอฟตแ์ วร ์                         3(3-0-6) 
+    (Software Development Security) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01219243 
+ ปรชั ญาและหลกั การด้านการรกั ษาความมนั่ คงปลอดภยั สารสนเทศ มาตรฐานด้าน
+การรกั ษาความมนั่ คงปลอดภยั สารสนเทศ ความสมั พนั ธร์ ะหว่างความต้องการทางธุรกิจกบั
+ความต้องการด้านความมงั่ คงปลอดภยั ของซอฟต์แวร์ ความสมั พนั ธ์ระหว่างนโยบายด้าน
+ความมัน่ คงสารสนเทศกับความต้องการด้านความมัง่ คงปลอดภัยของซอฟต์แวร์ 
+สถาปัตยกรรมระบบสารสนเทศระดบั องคก์ รและส่วนขยายดา้ นการรกั ษาความมงั่คงปลอดภยั  
+การออกแบบซอฟต์แวร์ให้มคี วามมนั่ คงปลอดภยั  การเขยี นเน้ือโปรแกรมให้มคี วามมนั่ คง
+ปลอดภยั  การทดสอบความมนั่ คงปลอดภยั ของซอฟต์แวร ์ การตดิ ตงั้ และปรบั แต่งซอฟต์แวร์
+อย่างมนั่ คงปลอดภยั  วธิ ปี ฏบิ ตั ิท่ดี ที ่สี ุดในปัจจุบนั เก่ยี วกบั การรกั ษาความมนั่ คงปลอดภัย
+ซอฟต์แวร์ กฎหมายเก่ียวข้องกับระบบสารสนเทศ กฎหมายเก่ียวข้องกับวิชาชีพด้าน
+สารสนเทศ จรรยาบรรณวชิ าชพี  ความเป็นมอื อาชพี  
+  Philosophies  and  principles  of  information  security;  information  security 
+standards;  relationships  between  business  requirements  and  software  security 
+requirements; relationships between information security policies and software security 
+requirements; enterprise (information system) architecture and its security extension; 
+secure software design; secure coding; software security testing; secure software 
+installation  and  configuration;  current  best  practices  in  software  security;  laws 
+concerning information systems; laws concerning IT professionals, code of ethics; 
+professionalism. 
+ 
+ 
+*วชิ าเปิดใหม่ 
+01219332  คลงั ขอ้ มลู        3(3-0-6) 
+    (Data Warehouse) 
+ 
+  พน้ื ฐานของการสรา้ งคลงั ขอ้ มลู  การวางแผนโครงการ การนิยามขอ้ ก าหนดของธุรกจิ  
+การสร้างแบบจ าลองมมี ติ ิ สถาปัตยกรรมเชงิ เทคนิค ทางเลอื กของโครงแบบเชงิ กายภาพ 
+การเลอื กโครงการ การออกแบบฐานขอ้ มูลกายภาพ การประมวลจดั ขนั้ ตอนขอ้ มูล เทคนิค
+การจดั ขนั้ ตอนขอ้ มูล งานประยุกต์ส าหรบั ผู้ใช้เป้าหมาย การใช้คลงั ขอ้ มูล การจดั การการ
+เตบิ โตของระบบ 
+Fundamentals of data warehousing; project planning; business requirement 
+definition; dimensional modeling; technical architecture; physical configuration options; 
+project  selection;  physical  database  design;  data  staging  process;  data  staging 
+techniques; target user applications; deployment of data warehouse; system growth 
+management. 
+ 
+01219333  การท าเหมอื งขอ้ มลู เบอ้ื งตน้       3(3-0-6) 
+    (Introduction to Data Mining) 
+แนวคดิ พน้ื ฐานของการทา  เหมอื งขอ้ มลู  การประยกุ ตก์ ารท าเหมอื งขอ้ มลู  เทคนิคและ
+แบบจา  ลอง ประเดน็ ด้านจรยิ ธรรมและความเป็นส่วนตวั  ชุดซอฟต์แวรเ์ หมอื งขอ้ มูล วธิ กี าร
+ทา  เหมอื งขอ้ มลู  ตารางการตดั สนิ ใจ ตน้ ไมก้ ารตดั สนิ ใจ กฎการจา  แนก การเขา้ กลุ่ม การสรา้ ง
+แบบจา  ลองเชงิ สถติ แิ ละแบบจา  ลองเชงิ เสน้  
+Basic  concepts  of  data  mining;  data  mining  applications;  techniques  and 
+models;  ethics  and  privacy  issues;  data  mining  software  suite;  data  mining 
+methodologies; decision tables; decision trees; classification rules; clustering; statistical 
+modeling; and linear models. 
+ 
+01219334  การประมวลผลรายการเปลย่ี นแปลง     3(3-0-6) 
+    (Transaction Processing) 
+รายการเปลย่ี นแปลงและสมบตั  ิ ผจู้ ดั การทรพั ยากรและผจู้ ดั การรายการเปลย่ี นแปลง 
+แบบจา  ลองการประมวลผลด้วยรายการเปล่ยี นแปลง ประโยชน์ของการส่อื สารแบบรายการ
+เปล่ยี นแปลงกบั ระบบอ่นื  งานประยุกต์ท่ใี ช้การประมวลผลรายการผ่านเวบ็  การเฝ้าสงั เกต
+การประมวลผลดว้ ยรายการ รายการเปลย่ี นแปลงการจ่ายเงนิ อเิ ลก็ ทรอนิกส ์งานประยุกต์ฝัง่
+เคร่อื งบรกิ าร การบรกิ ารรายการเปล่ยี นแปลง เคร่อื งบรกิ ารรายการเปล่ยี นแปลงท่มี ใี ช้ใน
+ปัจจบุ นั  
+Transactions  and  their  properties;  resource  managers  and  transaction 
+managers; transaction processing models; benefits of using transactional versus non-
+transactional communications;  applications that process transactions via the Web; 
+transaction  processing  monitor;  electronic  payment  transaction;  server  side 
+applications; transaction services; currently deployed transaction servers. 
+ 
+01219335*  การน าเขา้ และรวบรวมขอ้ มลู                          3(3-0-6) 
+ 
+(Data Acquisition and Integration) 
+วชิ าทต่ี อ้ งเรยี นมาก่อน 01219231 
+ประเภทของขอ้ มลู   ขอ้ มลู แอนะลอ็ กและดจิ ทิ ลั   การจดั เกบ็ ขอ้ มลู   การเกบ็ ขอ้ มลู
+ระยะไกล ไอโอท ีแบบสอบถามและแบบสา  รวจ  ชา  ระขอ้ มลู เบอ้ื งตน้  ตวั เช่อื มต่อขอ้ มลู  การสุ่ม
+ขอ้ มลู   ตวั แปลงขอ้ มลู   การจดั การขอ้ มลู หลายแหล่ง  การเช่อื มต่อกบั ฐานขอ้ มลู   การอธบิ าย
+ขอ้ มลู ดว้ ยภาพ 
+Data types; analog and digital data; data collection; remote data acquisition; 
+IoT; questionnaire and survey; data cleansing; data connectivity; data sampling; data    
+transformation; data source management; database connectivity; data visualization. 
+ 
+01219336*    ระบบฐานขอ้ มลู ขนั้ สงู                     3(3-0-6) 
+      (Advanced  Database System) 
+    หวั ขอ้ ขนั้ สงู เกย่ี วกบั ฐานขอ้ มลู  เช่น การจดั การทรานแซก็ ชนั  ฮารโ์ มไนเซชนั  การแทน
+ค่า และอินเด็กซ์ ประเภทของการจดั เก็บข้อมูล เช่น ฐานข้อมูลแบบใหม่ ฐานข้อมูลใน
+หน่วยความจา   ฐานขอ้ มลู เชงิ วตั ถุ ฐานขอ้ มลู แบบกระจาย คลง้ ขอ้ มลู  และขอ้ มลู ไรโ้ ครงสรา้ ง 
+วธิ กี ารควิ รบ่ี นฐานขอ้ มลู ทไ่ี ม่ไดเ้ ป็นแบบเอสควิ แอลและเทคโนโลยเี วบ็ เชงิ ความหมาย ความ
+มนั่ คง ความเสถียร ความถูกต้อง การจดั เก็บข้อมูลบนกลุ่มเมฆและการพฒั นาโปรแกรม
+เช่อื มต่อ การบรหิ ารจดั การ และการบา  รงุ รกั ษา 
+Advanced  issues  in  database:   transaction  management,  harmonization, 
+physical representation and indexing; various kinds of data storage: new database, in-
+memory database, objected-oriented database, distributed database, data warehouse 
+and unstructured data store; Query approaches using NoSQL and semantic  web 
+technology;    security,  reliability,  and  integrity  issues;  data  store  on  clouds  and 
+application development; administration and maintenance. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+*วชิ าเปิดใหม่ 
+01219343**  การทดสอบซอฟตแ์ วร ์      3(3-0-6) 
+    (Software Testing) 
+ 
+      มโนทศั น์พน้ื ฐานเกย่ี วกบั การทดสอบซอฟตแ์ วร ์ กระบวนการและแบบจา  ลองสา  หรบั  
+    การทดสอบซอฟตแ์ วร ์ การทดสอบทร่ี ะดบั ชน้ิ ส่วน การทดสอบการเช่อื มต่อ การทดสอบ 
+    ระบบ และการทดสอบการยอมรบั ของผใู้ ช ้ การทดสอบเชงิ ไมเ่ ป็นฟังกช์ นั่  เทคนิคการ 
+ทบทวน การวเิ คราะห์ซอฟต์แวรเ์ ชงิ สถติ ย ์ การวางแผน การประมาณ การดูแลและควบคุม 
+การทดสอบซอฟตแ์ วร ์ เครอ่ื งมอื ในการทดสอบ 
+  Basic concepts of software testing;  processes and models of software testing; 
+component  testing;  integration  testing;  system  testing;  acceptance  testing;                    
+non-functional testing;  review techniques;  static software analysis;  test planning; 
+estimation; monitoring and control;  test tools. 
+ 
+01219344**  การพฒั นาซอฟตแ์ วรบ์ นอุปกรณ์เคล่อื นท่ ี     3(3-0-6) 
+    (Mobile Software Development) 
+  แพลตฟอร์มของซอฟต์แวร์บนอุปกรณ์เคล่อื นท่ี  กระบวนการพัฒนาซอฟต์แวร์
+ส าหรบั อุปกรณ์เคล่อื นท่ ี  การออกแบบส่วนตดิ ต่อกบั ผใู้ ชบ้ นอุปกรณ์เคล่อื นท่ี  การออกแบบ
+และพฒั นาซอฟต์แวร์ส าหรบั อุปกรณ์เคล่อื นท่ี  ช่องทางการจดั จ าหน่ายซอฟต์แวร์ส าหรบั
+อุปกรณ์เคล่อื นท ่ี  การฝึกปฏบิ ตั กิ ารพฒั นาซอฟตแ์ วรป์ ระยกุ ตส์ า  หรบั อุปกรณ์เคล่อื นท ่ี
+  Mobile software platforms; mobile software development processes; designing 
+mobile user interface; designing and developing mobile software; mobile software 
+distribution channels; practice in developing mobile applications. 
+ 
+01219345*   ปฏบิ ตั กิ ารการทวนสอบและการตรวจสอบซอฟตแ์ วร ์                 1(0-3-2)
+             (Software Verification and Validation Laboratory)     
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01219245 
+มโนทศั น์พน้ื ฐานเกย่ี วกบั การทวนสอบและการตรวจสอบซอฟตแ์ วร ์ การทดสอบท่ี
+ระดบั ชน้ิ ส่วน การทดสอบการเช่อื มต่อ การทดสอบระบบและการทดสอบการยอมรบั ของผใู้ ช ้
+การวเิ คราะหค์ วามครอบคลุม  การทดสอบเชงิ ไมเ่ ป็นฟังกช์ นั่   เทคนิคการทบทวน  การ
+วเิ คราะหซ์ อฟตแ์ วรเ์ ชงิ สถติ ย ์ การรายงานความผดิ พลาด 
+      Basic  concepts  of  software  verification  and  validation;  component  testing; 
+integration testing; system testing and user acceptance testing; coverage analysis;    
+non-functional testing;  review techniques;  static analysis of software; defect reporting.  
+ 
+*วชิ าเปิดใหม่ 
+**ปรบั ปรงุ รายวชิ า 
+01219346*  การจดั การกระบวนการและโครงการซอฟตแ์ วร์                   3(2-3-6)
+                (Software Process and Project Management)     
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01219116 และ 01219117 
+ 
+การจดั การกระบวนการและโครงการซอฟตแ์ วร ์ การก าหนดแผน  ตารางเวลา 
+งบประมาณ และ ทรพั ยากรการแตกแผนการท างาน การตดิ ตามและควบคุม การวดั และการ
+วเิ คราะห ์ การควบคุมโครงแบบ การทดสอบ และ ขนั้ ตอนการพฒั นาซอฟตแ์ วร์ 
+Standard processes to manage software project; timeline, budget and resource 
+planning; work breakdown structure; project monitoring and control; measurement and 
+analysis; configuration management; test and deployment steps. 
+ 
+01219349*    การผลติ เกมดจิ ทิ ลั                           3(3-0-6)
+              (Digital Game Production)     
+อุตสาหกรรมเกม  กระบวนการผลติ เกม  การจดั ประเภทของเกม  ทฤษฎคี วามหรรษา 
+ทฤษฎกี ารออกแบบเกม  การออกแบบสภาพแวดลอ้ ม  การดา  เนินเรอ่ื งแบบปฏสิ มั พนั ธ ์ ตวั
+ละครดจิ ทิ ลั  เครอ่ื งมอื พฒั นาเกม แพลตฟอรม์ เกม การแปลงแพลตฟอรม์  การน าเสนอ การ
+ประเมนิ  
+Game industry; game production process; game genre; theory of fun; theory of 
+game  design;  environment  design;  interactive  story;  digital  character;  game 
+development tools; game platforms; platform transformation; presentation; evaluation. 
+ 
+01219351**  การพฒั นาซอฟตแ์ วรป์ ระยกุ ตบ์ นเวบ็        3(3-0-6) 
+    (Web Application Development) 
+    มโนทศั น์พน้ื ฐานของสถาปัตยกรรมเวบ็ และโปโตคอลเฮชทที พี  ี   สถาปัตยกรรมของ
+โปรแกรมประยกุ ตบ์ นเวบ็     การออกแบบโปรแกรมประยกุ ตบ์ นเวบ็     การทดสอบโปรแกรม
+ประยกุ ตบ์ นเวบ็   ความปลอดภยั ของโปรแกรมประยกุ ต์บนเวบ็   การขยายโปรแกรมประยกุ ต์
+บนเวบ็   การบรกิ ารบนเวบ็ เบอ้ื งตน้   การพฒั นาโปรแกรมประยกุ ตบ์ นเวบ็ บนเทคโนโลยกี ลุ่ม
+เมฆ  ฝึกปฏบิ ตั กิ ารการพฒั นาโปรแกรมประยกุ ตบ์ นเวบ็ โดยมผี ใู้ ชง้ านเป้าหมายจรงิ  
+  Basic concepts of web architecture and the HTTP protocol; architecture of  
+web applications; designing web applications; testing web applications; web  
+  application  security;  scaling  web  applications;  introduction  to  web  services;  web 
+application development on cloud technology; practice in developing web application 
+with real target users.  
+ 
+*วชิ าเปิดใหม่ 
+**ปรบั ปรงุ รายวชิ า 
+01219361**  อจั ฉรยิ ะเชงิ ธุรกจิ       3(3-0-6) 
+    (Business Intelligence) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01204351 หรอื  01219231 
+ 
+ระบบสนับสนุนการจดั การ กระบวนการตดั สนิ ใจ สถาปัตยกรรมและส่วนประกอบ
+ของระบบอจั ฉรยิ ะเชงิ ธุรกจิ   การคลงั ขอ้ มลู  ระเบยี บวธิ พี ฒั นาคลงั ขอ้ มลู  การประยุกต์ใชก้ าร
+คลงั ขอ้ มูลส าหรบั ระบบอจั ฉรยิ ะเชงิ ธุรกิจ กระบวนการค้นพบความร ู้ เทคนิคการท าเหมอื ง
+ขอ้ มลู  การประยกุ ตใ์ ชเ้ ทคนิคการทา  เหมอื งขอ้ มลู สา  หรบั ระบบอจั ฉรยิ ะเชงิ ธุรกจิ  
+Management support systems; decision making process; architectures and  
+  elements of business intelligence; data warehousing; data warehouse development  
+  methodology; application of data warehousing for business intelligence; knowledge 
+  discovery; data mining technique; application of data mining for business.  
+  intelligence. 
+ 
+01219362  การเรยี นรขู้ องเครอ่ื งจกั ร      3(3-0-6) 
+    (Machine Learning) 
+เทคนิคและขนั้ ตอนวธิ เี พ่อื การเรยี นรขู้ องเครอ่ื งจกั ร กระบวนการเชงิ อุปนยั ของต้นไม้
+การตดั สนิ ใจ แนวทางการเรยี นรู้แบบเบย์เซยี นเชงิ พารามเิ ตอร์ แบบจ าลองมาร์คอฟแบบ
+ซ่อน วธิ กี ารแบบไม่มพี ารามเิ ตอร ์ ฟังก์ชนั การแยกแยะ เครอื ข่ายประสาทเทยี ม วธิ กี ารเชงิ
+สุ่ม ขนั้ ตอนวธิ เี ชงิ พนั ธุศาสตร ์ การเรยี นรแู้ บบไมม่ ตี น้ แบบ การแบ่งกลุ่มขอ้ มลู  
+Techniques and algorithms underlying machine learning; inductive process of 
+decision trees; parametric-based Bayesian learning approach; hidden Markov models; 
+non-parametric methods; discriminant functions; neural networks; stochastic methods; 
+genetic algorithms; unsupervised learning; data clustering. 
+ 
+ 01219364**  การคน้ พบความร ู้     3(3-0-6) 
+    (Knowledge Discovery) 
+หลกั การของการค้นพบความรู้ การค้นพบความรู้โดยอตั โนมตั ิ การหาเหตุผลเชงิ
+เหน่ยี วน า กระบวนการคน้ พบความร ู้ ขนั้ ตอนวธิ แี ละเครอ่ื งมอื การทา  เหมอื งความรู้ 
+Principles of knowledge discovery; automated scientific discovery; inductive 
+reasonin; knowledge discovery processes; knowledge mining algorithms  and  tools. 
+ 
+ 
+ 
+ 
+**ปรบั ปรงุ รายวชิ า 
+01219366*  วศิ วกรรมความรแู้ ละการจดั การความร ู้ II                    3(3-0-6)
+  (Knowledge Engineering and Knowledge Management II) 
+     วชิ าทต่ี อ้ งเรยี นมาก่อน 01219266 
+ 
+หลกั การพน้ื ฐานการแทนความรใู้ หอ้ ยใู่ นรปู ทค่ี อมพวิ เตอรส์ ามารถประมวลผลไดแ้ ละ
+การหาเหตุผล  คุณลกั ษณะตวั แทนความร ู้ ขอ้ ไดเ้ ปรยี บและขอ้ จา  กดั ของตวั แทนความรแู้ บบ
+ต่างๆ เช่น กฎตรรกศาสตร ์การคา  นวณเชงิ เพรดเิ คต การแทนความรแู้ บบคลุมเครอื  โครงขา่ ย
+ความหมาย  เฟรม  การแทนความรโู้ ดยใชภ้ ววทิ ยา  กระบวนการแทนความรแู้ บบไมม่ ี
+โครงสรา้ ง ใหอ้ ยใู่ นรปู แบบของตวั แทนความรู้ 
+Basic  principle  of  knowledge  representation  and  its  reasoning  tasks; 
+characteristics, advantage, and limitations of various knowledge representation: logic, 
+predicate  calculus,  fuzzy  logic,  semantic  networks,  frame,  ontology;  process  of 
+transforming unstructured knowledge to knowledge representation. 
+ 
+01219367*  การวเิ คราะหข์ อ้ มลู                           3(3-0-6) 
+    (Data Analytics) 
+  วชิ าทต่ี อ้ งเรยี นมาก่อน 01219366 
+แนวคดิ พน้ื ฐานของการวเิ คราะหข์ อ้ มลู  เทคนิคและแบบจา  ลอง ประเดน็ ดา้ นจรยิ ธรรม
+และความเป็นส่วนตวั   ชุดซอฟตแ์ วรเ์ หมอื งขอ้ มลู   วธิ กี ารท าเหมอื งขอ้ มลู   เทคนิคการเตรยี ม
+ขอ้ มลู  เทคนิคการจดั กลุ่มขอ้ มลู  เทคนิคการแบ่งกลุ่มขอ้ มลู  เทคนิคการคน้ หาความสมั พนั ธบ์ น
+ขอ้ มลู  การประยกุ ตก์ ารทา  เหมอื งขอ้ มลู  การวเิ คราะหข์ อ้ มลู ทม่ี รี ปู แบบซบั ซอ้ น การวเิ คราะห์
+ขอ้ มลู ขนาดใหญ่มาก แนวโน้มและทศิ ทางของเทคนิคการวเิ คราะหข์ อ้ มลู  
+Basic concepts of data analytics; techniques and models; ethics and privacy 
+issues; data mining software suite; data mining methodologies; data pre-processing 
+techniques; data regression and classification techniques; data clustering techniques; 
+link  and  association  discovery  techniques,  data  mining  applications;  implementing 
+analytics within an organization; un-structured and complex data analytics; big data 
+analytics; data analytics trends. 
+ 
+ 
+ 
+ 
+ 
+ 
+*วชิ าเปิดใหม่ 
+ 
+01219382*  การออกแบบอนั ตรกริ ยิ า                        3(3-0-6) 
+    (Interaction Design) 
+  วชิ าทต่ี อ้ งเรยี นมาก่อน 01219243 
+ 
+แนวคดิ เชงิ จติ วทิ ยาของผใู้ ช ้ การพฒั นาประสบการณ์ของผใู้ ช ้ การออกแบบและสรา้ ง
+ระบบตดิ ต่อระหว่างผใู้ ชก้ บั คอมพวิ เตอร ์อตั รกริ ยิ าของฮารด์ แวรแ์ ละซอฟตแ์ วร ์ อตั รกริ ยิ าของ
+ระบบงาน  เครอ่ื งมอื สา  หรบั การพฒั นา  การประเมนิ คุณภาพ  โมเดลของเวลาการตอบสนอง 
+การท าค่มู อื   
+Psychological concept on interaction; user-experience design; human-computer 
+interface  design;  software  interaction;  hardware  interaction;  system  interaction; 
+development  tools;  interaction  assessment;  response-time  model;  user  document 
+development. 
+ 
+01219395*  การเตรยี มการโครงงานกลุ่มนวตั กรรมซอฟตแ์ วร ์                  1(0-3-2)
+    (Innovative Software Group Project Preparation)     
+    การออกแบบและการจดั การโครงงานวศิ วกรรม การเขยี นรายงานวชิ าการ การตรวจ
+และอา้ งองิ เอกสารวชิ าการ  การน าเสนอรายงานวชิ าการ    การเตรยี มขอ้ เสนอโครงงาน
+วศิ วกรรมคอมพวิ เตอร ์ การน าเสนอหวั ขอ้ โครงงาน 
+Design and management of software group projects; technical report writing; 
+literature  review  and  reference;  technical  report  presentation;  preparation  for  a 
+computer engineering project proposal; presentation of the project proposal. 
+ 
+01219399*  การฝึกงาน                 1 
+  (Internship)               
+การฝึกงานในสาขาวิศวกรรมซอฟต์แวร์และความรู้ในสถานประกอบการเอกชน  
+หน่วยงานภาครฐั  หน่วยงานรฐั วสิ าหกจิ  หรอื สถานศกึ ษา เพ่อื ใหไ้ ดป้ ระสบการณ์จากการไป
+ปฏบิ ตั งิ านทไ่ี ดร้ บั มอบหมายส าหรบั สาขาวศิ วกรรมซอฟตแ์ วรแ์ ละความรู้ 
+Internship  for  software  and  knowledge  engineering  in  private  enterprises, 
+government agencies, government enterprises or academic institutions in order to gain 
+experiences from working in software and knowledge engineering field.   
+ 
+ 
+ 
+ 
+ 
+*วชิ าเปิดใหม่ 
+01219411  ความมนั่ คงของระบบคอมพวิ เตอร ์      3(3-0-6) 
+    (Computer Systems Security) 
+ 
+การรกั ษาความมนั่ คงของระบบคอมพวิ เตอร ์ การควบคุมการเข้าถึง การพสิ ูจน์ตวั
+จรงิ  ระดบั สทิ ธ ิ์วทิ ยาการเขา้ รหสั ลบั  ความปลอดภยั ของระบบ การส ารองขอ้ มูลและการกู้
+ระบบ นโยบายดา้ นความมนั่ คง 
+Computer security; access control; authentication; authorization; cryptography; 
+system safety; system backup and recovery, security policies. 
+ 
+01219412**  การเขยี นเชงิ เทคนิคสา  หรบั วศิ วกรซอฟตแ์ วรแ์ ละความรู้                3(3-0-6) 
+  (Technical Writing for Software and Knowledge Engineers) 
+วธิ เี ขยี นบทความทวั่ ไป  ขอ้ เสนอโครงงาน  รายงานความคบื หน้าและรายงานสรุป
+โครงงาน  การแสดงผลลพั ธ ์ บทสรปุ   บทวจิ ารณ์  รายงานวจิ ยั   การทบทวนงานวจิ ยั  
+บรรณานุกรม  เครอ่ื งมอื ซอฟตแ์ วรส์ า  หรบั การตรวจแก้และการส่งผลงาน  วธิ กี ารระดมสมอง
+สา  หรบั การเขยี น    การเรยี บเรยี งความคดิ   การรา่ งแผนการเขยี น  การตรวจแก ้ การพสิ ูจน์
+อกั ษร  การทบทวนโดยผรู้ เู้ สมอกนั     การเรยี บเรยี งใหม ่ การประชุมรว่ มกนั เพ่อื รวบรวม
+ขอ้ เสนอแนะของงานเขยี นระหว่างผเู้ รยี นและผสู้ อน 
+     General  text  writing;  project  proposal;  progress  and  final  report;  result 
+documentary;  summary;  critique;  research  paper;  literature  review;  bibliography; 
+software  tools  for  editing  and  submission  systems;  writing  brainstorm;  idea 
+organization; outlining; editing and proof reading; peer review; rewriting; feedback 
+conference between teacher and student. 
+ 
+01219421*  เทคโนโลยกี ลุ่มเมฆและการบรหิ ารจดั การ           3(3-0-6) 
+  (Cloud Computing Technology and Management) 
+แนะน าเทคโนโลย ี พน้ื ฐานการคา  นวณกลุ่มเมฆ    สภาพแวดลอ้ มระบบกลุ่มเมฆ  
+เทคโนโลยคี อมพวิ เตอรเ์ สมอื น  สถาปัตยกรรมระบบกลุ่มเมฆ  การโปรแกรมระบบกลุ่มเมฆ 
+การออกแบบพฒั นางานประยกุ ตท์ ใ่ี ชบ้ รกิ ารกลุ่มเมฆ    การบรหิ ารจดั การกลุ่มเมฆและ
+มาตรฐาน ความปลอดภยั และความเป็นส่วนตวั ของระบบกลุ่มเมฆ กรณศี กึ ษา 
+Introduction to cloud computing; cloud ecosystem;  virtualization technology; 
+cloud computing architecture;  cloud platform and services; cloud programming; cloud 
+application design and development; cloud management and standards; cloud security 
+and privacy; case study. 
+ 
+*วชิ าเปิดใหม่ 
+**ปรบั ปรงุ รายวชิ า 
+01219449**  แนวคดิ หลกั สา  หรบั สถาปัตยกรรมซอฟตแ์ วร ์                                          3(2-3-6)    
+  (Principle of Software Architecture) 
+  วชิ าทต่ี อ้ งเรยี นมาก่อน 01219116 และ 01219117 
+ 
+กระบวนการสถาปัตยกรรมซอฟต์แวร์  ลกั ษณะประจ าเชงิ คุณภาพของซอฟต์แวร์   
+การเขยี นเอกสารสถาปัตยกรรมซอฟต์แวร์   สถาปัตยกรรมท่ขี บั เคล่อื นด้วยแบบจ าลอง   
+สถาปัตยกรรมเชงิ การบรกิ าร   รปู แบบการออกแบบเชงิ สถาปัตยกรรม   รปู แบบสา  หรบั วตั ถุ
+แบบเครือข่ายท่ีท างานจวบกัน  รูปแบบส าหรับระบบองค์ แบบรูปส าหรับระบบอิง 
+อนิ เทอรเ์ น็ต 
+Software architecture process; software quality attributes; software architecture 
+documentation; model-driven architecture; service-oriented architecture; architectural 
+design patterns; concurrent and networked object patterns; enterprise system patterns; 
+internet-based system patterns. 
+ 
+01219451**  เทคโนโลยกี ารบรกิ ารเวบ็       3(3-0-6) 
+    (Web Services Technology) 
+โพรโทคอลเฮชทีทีพีและการพัฒนาทรยั ากรทางอินเตอร์เน็ต   โพรโทคอลแบบ
+กระจายตวั   การเปล่ยี นแปลงรูปแบบของเอกซ์เอ็มแอลและเจสนั    โพรโทคอลอารเ์ อสเอส
+และอะตอม  โพรโทคอลโซปและอาร์พซี  ี  แนวความคดิ และสถาปัตยกรรมเรสท์ฟูล ความ
+มนั่ คงของเวบ็  การเขา้ ถงึ ฐานขอ้ มลู   การจดั การ การย่อส่วนและการเฝ้าระวงั การบรกิ ารเวบ็   
+แนวความคดิ และวตั ถุประสงค์ของไมโครเซอรว์ สิ  การบรกิ ารทางเวบ็ ผ่านส่วนหลงั ของเว็บ
+และระบบเคล่อื นท ่ี  โครงงานการบรกิ ารเวบ็  
+HTTP protocol and deployment of Internet resources; distributed programming 
+protocols; XML and JSON format conversion; RSS and Atom protocols; SOAP and 
+RPC protocols; RESTful concept and architecture; securing web services; database 
+access  with  web  services;  deploying;  scaling  and  monitoring  web  services;             
+micro-service concept and objectives; web services as a backend for web and mobile 
+applications; web service project.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+**ปรบั ปรงุ รายวชิ า 
+ 
+01219452  หลกั การความมนั่ คงปลอดภยั สารสนเทศ                                   3(3-0-6) 
+    (Principle of Information security) 
+ 
+     ความมนั่ คงปลอดภยั สารสนเทศ ความลบั  ความถูกตอ้ ง และความพรอ้ มใช ้ กรอบงาน
+เทคโนโลยสี ารสนเทศ ธรรมาภบิ าลเทคโนโลยสี ารสนเทศ การออกแบบและการท าให้บรรลุ
+ความสา  เรจ็ ของแผนรบั มอื เหตุการณ์และสถานการณ์ฉุกเฉิน การวเิ คราะหผ์ ลกระทบทางธุรกจิ  
+แผนการด าเนินธุรกจิ อย่างต่อเน่ือง นโยบายความมนั่ คงปลอดภยั สารสนเทศ มาตรฐานความ
+มนั่ คงปลอดภยั สารสนเทศ หน้าท่แี ละความรบั ผดิ ชอบของผู้บรหิ ารระดบั สูงด้านสารสนเทศ
+ของหน่วยงานและผบู้ รหิ ารระดบั สงู ดา้ นความมนั่ คงปลอดภยั ของหน่วยงาน 
+Information  security;  confidentiality,  integrity  and  availability;  information 
+technology framework; information technology governance; design and implementation 
+of contingency plan; business impact analysis; business continuity plan; information 
+security  policies;  information  security  standard;  role  and  responsibility  of  Chief 
+Information Officer and Chief Information Security Officer. 
+ 
+01219461*  แพลตฟอรม์ ขอ้ มลู ขนาดใหญ่และการวเิ คราะห์           3(3-0-6) 
+    (Big Data Platform and Analytics) 
+โครงสรา้ งพน้ื ฐานทร่ี องรบั การจดั เกบ็ ขอ้ มลู ขนาดใหญ่  แหล่งทม่ี าของขอ้ มลู ขนาด
+ใหญ่    การโปรแกรมบนระบบแบบกระจายหรอื บนระบบกลุ่มเมฆ  ระบบไฟลข์ นาดใหญ่ 
+คลงั ขอ้ มลู  การสตรมี     การเขา้ ถงึ โดยใชเ้ ครอ่ื งมอื แบบเอสควิ แอลและไมใ่ ชเ้ อสควิ แอล เทคนิค
+การวเิ คราะหแ์ ละการท านายขอ้ มลู  เช่น เครอื ขา่ ยประสาทเทยี ม การเรยี นรขู้ องเคร่อื งจกั ร การ
+พยากรณ์ การเรยี นรแู้ บบลกึ  เหมอื งขอ้ มลู  การถดถอย และการคดั เลอื กคุณลกั ษณะสา  หรบั การ
+วเิ คราะหโ์ ครงสรา้ งและไมใ่ ช่โครงสรา้ งแบบแบตชแ์ ละเวลาจรงิ   การวเิ คราะหข์ อ้ มลู สรา้ งภาพ 
+รากฐาน การก ากบั ดแู ลขอ้ มลู  หวั ขอ้ พเิ ศษ เช่น ขอ้ มลู กราฟ การท าเพจแรงค ์  กรณศี กึ ษา 
+       Big  data  infrastructure;  big  data  sources  and  types;    programming  on 
+distributed  platform  or  cloud  system;  large  file  system  and  data  warehouse,  and 
+streaming;   access using SQL-like and No-SQL-like tools; common data analysis and 
+prediction techniques:  neural nets, machine learning, forecasting, deep learning,   data 
+mining, regression, and feature selection; structure and unstructured analysis for batch 
+and real-time mode; visual data analytics; provenance, governance;  advanced topics: 
+graph data, page rank;  case study. 
+ 
+ 
+ 
+*วชิ าเปิดใหม ่
+01219482**  การอธบิ ายขอ้ มลู ดว้ ยภาพ      3(3-0-6) 
+    (Data Visualization) 
+ 
+เทคโนโลยกี ารอธบิ ายขอ้ มลู ดว้ ยภาพ การแสดงผลกราฟิก ภาพเคล่อื นไหว วดี ที ศั น์ 
+เสยี ง จติ วทิ ยาการรบั ร ู้ เทคนิคการน าเสนอขอ้ มลู แบบส่อื ประสม  การออกแบบการน าเสนอ 
+ส่อื โฆษณา ส่อื ประชาสมั พนั ธ ์ และ อนิ โฟกราฟิก การน าเสนอขอ้ มลู ในช่องทางทห่ี ลากหลาย 
+Data visualization technology; graphic presentation; animation; video image; 
+audio; perception psychology; multimedia presentation techniques; hypermedia-linked 
+information; presentation design; advertisement; public announcement ;infographic   
+multi-channel presentation. 
+01219490   สหกจิ ศกึ ษา               9 
+    (Cooperative Education) 
+การปฏบิ ตั งิ านในลกั ษณะพนักงานชวั่ คราวตามโครงการทไ่ี ดร้ บั มอบหมาย ตลอดจน
+การจดั ทา  รายงานและการน าเสนอ 
+On the job training as a temporary according to the assigned project including 
+     Report and presentation. 
+ 
+01219491**   ระเบยี บวธิ วี จิ ยั เบอ้ื งตน้ ทางวศิ วกรรมซอฟตแ์ วรแ์ ละความรู้       1(0-3-2) 
+    (Introduction to Research Methods in Software and Knowledge Engineering) 
+งานวิจัยทางวิศวกรรมซอฟต์แวร์และความรู้ ลักษณะเฉพาะของการวิจัยทาง
+วศิ วกรรมซอฟตแ์ วรแ์ ละความร ู้ การจดั ทา  โครงร่างการวจิ ยั  การรวบรวมและการคน้ คนื ขอ้ มลู  
+เคร่อื งมอื ในการทดลองทางวศิ วกรรมซอฟต์แวร์และความร ู้ การวเิ คราะห์ขอ้ มูล การเขยี น
+รายงานวชิ าการ 
+Research in software and knowledge engineering; characteristics of software 
+and knowledge engineering research; research proposal preparation; data gathering 
+and information retrieval; experiment tools in software and knowledge engineering; data 
+analysis; technical report writing. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+**ปรบั ปรงุ รายวชิ า 
+ 
+01219492  การเป็นผปู้ ระกอบการซอฟตแ์ วร ์        3(3-0-6) 
+    (Software Entrepreneurship) 
+ 
+บทน าและกรณีศกึ ษา การพฒั นาแบบจา  ลองทางธุรกจิ  การวางแผนเชงิ กลยุทธ ์ การ
+จดั การทรพั ยากรทุน การจดั การความเสย่ี ง การบญั ชเี บอ้ื งต้น กระบวนการและขอ้ กฎหมาย
+ในการจดั ตงั้ บรษิ ทั  การฝึกปฏบิ ตั เิ กย่ี วกบั เน้อื หาในวชิ า  
+Introduction and case studies; business model development; strategic planning. 
+financial resource management; risk management; basic accounting; procedures and 
+laws for establishing a company; practice with materials in the course.  
+ 
+01219493*       เรอ่ื งเฉพาะทางวศิ วกรรมระบบคอมพวิ เตอร ์                 3(3-0-6) 
+                    (Selected Topics in Computer System Engineering) 
+                              เรอ่ื งเฉพาะทางเทคโนยสี ารสนเทศในระดบั ปรญิ ญาตร ี หวั ขอ้ เรอ่ื งเปลย่ี นแปลงไปใน
+แต่ละภาคการศกึ ษา 
+Selected topics in information technology at the bachelor’s degree level; topics 
+are subject to change each semester. 
+ 
+01219494*  เรอ่ื งเฉพาะทางวศิ วกรรมความรู้      3(3-0-6) 
+    (Selected Topics in Knowledge Engineering) 
+เรอ่ื งเฉพาะทางวศิ วกรรมความรใู้ นระดบั ปรญิ ญาตร ี หวั ขอ้ เรอ่ื งเปลย่ี นแปลงไปในแต่ละ
+ภาคการศกึ ษา 
+Selected topics in knowledge engineering at the bachelor’s degree level; topics 
+are subject to change each semester. 
+ 
+01219496**  เรอ่ื งเฉพาะทางวศิ วกรรมซอฟตแ์ วร ์     3(3-0-6) 
+    (Selected Topics in Software Engineering) 
+เร่อื งเฉพาะทางวศิ วกรรมซอฟต์แวรใ์ นระดบั ปรญิ ญาตร ี หวั ขอ้ เร่อื งเปลย่ี นแปลงไป
+ในแต่ละภาคการศกึ ษา 
+Selected topics in software engineering at the bachelor’s degree level; topics 
+are subject to change each semester. 
+ 
+ 
+ 
+ 
+  *วชิ าเปิดใหม่ 
+ **ปรบั ปรุงรายวชิ า 
+01219497**      สมั มนาเชงิ เทคนิคและปฏบิ ตั ทิ างวศิ วกรรมซอฟตแ์ วรแ์ ละความรู ้                        1(0-3-2) 
+                      (Hands-on Technical Seminar in Software and Knowledge Engineering) 
+ 
+การฝึกปฏบิ ตั เิ ทคนิคทเ่ี ป็นปัจจบุ นั และทก่ี  าลงั เป็นทน่ี ิยมจากผเู้ ชย่ี วชาญในสาขาวชิ า
+กรรมซอฟต์แวร์และความรู้ ด าเนินการในรูปแบบ การบรรยาย/สมั มนาโดยวทิ ยากร การ
+อภปิ รายในชนั้ เรยี น การสาธติ  และการลงมอื ปฏบิ ตั กิ ารจรงิ  
+Professional  practices  of the current technics  and trends in software and                  
+knowledge engineering; class will be conducted in a lecture/seminar format with guest 
+speakers, class discussions and demonstrations, and hands-on workshops. 
+ 
+01219498   ปัญหาพเิ ศษ                          1-3 
+    (Special Problems) 
+การศกึ ษาคน้ ควา้ ทางวศิ วกรรมซอฟตแ์ วรแ์ ละความรรู้ ะดบั ปรญิ ญาตร ี และเรยี บเรยี ง
+เขยี นเป็นรายงาน 
+Study and research in software and knowledge engineering at the bachelor’s 
+degree level and compile into a report. 
+ 
+01219499**  โครงงานกลุ่มนวตั กรรมซอฟตแ์ วร ์     3(2-3-6) 
+    (Innovative Software Group Project) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน 01219395 และ 01219490 (แผนการศกึ ษาสหกจิ ศกึ ษา) หรอื       
+                      01219399 (แผนการศกึ ษาสา  หรบั นิสติ แลกเปลย่ี นต่างประเทศ) 
+ โครงงานกลุ่มระยะยาวในการสร้างและพัฒนาเคร่อื งมือนวัตกรรมในงานด้าน
+วศิ วกรรมซอฟตแ์ วรแ์ ละความร ู้
+Long-term workgroup project on production and development of innovative tools 
+for software and knowledge engineering. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   **ปรบั ปรงุ รายวชิ า 
+ 
+  3.1.5.2  รำยวิชำที่เป็นรหสั วิชำนอกหลกั สูตร 
+01200433   ระบบอาณตั สิ ญั ญานและโทรคมนาคม               3(3-0-6) 
+ 
+  ระบบอาณตั สิ ญั ญาน ระบบโทรคมนาคม ระบบ SCADA และ ระบบจ่ายกระแสไฟฟ้า
+ทใ่ี ชง้ านในประเทศไทยระบบ  Interlocking  อุปกรณ์ขา้ งทางรถไฟ  อุปกรณ์บนตวั รถไฟ 
+ระบบส่อื สารแบบต่างๆ  ทใ่ี ชก้ บั รถไฟ  ศูนยค์ วบคุมการเดนิ รถ  ระบบ  SCADA  ระบบจ่าย
+กระแสไฟฟ้าแก่รถไฟฟ้า  ระบบจา่ ยกระแสไฟฟ้ากระแสตรงแบบรางท ่ี 3  ระบบจา่ ยกระแส
+ไฟฟ้าแรงสงู กระแสสลบั แบบ  Catenary  และ  Pantograph  สถานีจ่ายไฟฟ้าสา  หรบั รถไฟฟ้า 
+การดงู าน 
+  Thailand’s Signalling, Telecommunication, SCADA, and Power Supply System, 
+Interlocking  System,  Wayside  Equipment,  On-Board  Equipment,  Rail 
+Telecommunication System, Central Train Control Center, SCADA System, Rail Power 
+Supply System, Third Rail System, Catenary Cables and Pantographs, Rail Power 
+Stations, Field Trips. 
+ 
+01204211      คณติ ศาสตรเ์ ตม็ หน่วยและพชี คณติ เชงิ เสน้                4(4-0-
+8)  
+             (Discrete Mathematics and Linear Algebra)  
+เซต ลา  ดบั  และฟังกช์ นั  ตรรกศาสตร ์ การเตบิ โตของฟังกช์ นั  วธิ กี ารพสิ ูจน์และอุปนยั
+วธิ ที างคณติ ศาสตร ์ นิยามและขนั้ ตอนวธิ แี บบเรยี กซ้า    วธิ กี ารนับและความสมั พนั ธแ์ บบ
+ปรากฏซ้า   ความสมั พนั ธ ์ความรเู้ บอ้ื งตน้ เกย่ี วกบั ทฤษฎกี ราฟ  ปรภิ ูมเิวกเตอรแ์ ละการตงั้ ฉาก  
+เมตรกิ ซแ์ ละการน าเสนอระบบเชงิ เสน้ ดว้ ยเมตรกิ ซ ์  การแปลงเชงิ เสน้   คา  ตอบของระบบเชงิ
+เสน้   ระบบไอเกน 
+Sets, sequences, and functions; logic; the growth of functions; methods of proof 
+and mathematical induction; recursive definitions and algorithms; counting methods 
+and recurrence relations; relations; introduction to graph theory;  vector spaces and 
+orthogonality;    matrices  and  matric  representations  of  linear  systems;    linear 
+transformations; solution of linear systems;  eigensystems. 
+ 
+01204222     การออกแบบระบบดจิ ทิ ลั         3(3-0-
+6)  
+             (Digital Systems Design)  
+ระบบดจิ ทิ ลั พน้ื ฐาน พชี คณิตแบบบลู  เทคนิคการออกแบบทางดจิ ทิ ลั  ลอจกิ เกต การ
+ลดขนาดตรรกะใหเ้ ลก็ ทส่ี ุด  วงจรเชงิ ประสมมาตรฐาน  วงจรเชงิ ล าดบั   ฟลปิ -ฟลอ็ ปวงจรเชงิ
+ลา  ดบั แบบประสานเวลาและแบบไม่ประสานเวลา พแี อลเอ รอม และแรม วงจรค านวณ  การ
+ใชค้ อมพวิ เตอรช์ ่วยออกแบบทางตรรกะ 
+Basic digital systems; boolean algebra; digital design techniques; logic gates; 
+logic  minimization;  standard  combinational  circuits,  sequential  circuits;  flip-flops; 
+synchronous and asynchronous sequential circuits; PLA, ROM, and RAM; arithmetic 
+circuits; computer-aided logic design. 
+ 
+ 
+01204314    สถติ สิ า  หรบั การประยกุ ตท์ างวศิ วกรรมคอมพวิ เตอร์           3(3-0-6) 
+             (Statistics for Computer Engineering Applications) 
+      วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204312 หรอื  01219214 
+      สถติ เิ ชงิ พรรณนาและเชงิ อนุมาน กระบวนการสุ่มและการประมาณ  การทดสอบ
+สมมตฐิ านและแบบไม่มพี ารามเิตอร ์ การวเิ คราะหข์ อ้ มลู แบบประเภท การสรา้ งภาพแสดง
+ขอ้ มลู  การวเิ คราะหค์ วามแปรปรวน การวเิ คราะหแ์ บบถดถอย  วธิ กี ารเรยี นรแู้ บบตน้ ไม ้
+วธิ กี ารอนุมานแบบเบยเ์ ซยี น  การประยกุ ต์ทางสถติ  ิ
+    Descriptive and inferential statistics; Sampling and estimation; Hypothesis 
+and non-parametric testing; Analysis of categorical data; Data visualization; Analysis 
+of  variance;  Regression;  Tree-based  learning  methods;  Bayesian  inference; 
+Applications of statistics. 
+ 
+01204322     ระบบฝังตวั         3(3-0-
+6) 
+             (Embedded System) 
+ไมโครคอนโทรลเลอรแ์ บบฝังตวั  โปรแกรมแบบฝังตวั  ระบบปฏบิ ตั กิ ารเวลาจรงิ  การ
+คา  นวณพลงั ต่า    การออกแบบระบบเช่อื ถอื ได ้ วธิ กี ารออกแบบเครอ่ื งมอื เสรมิ   หน่วย
+ประมวลผลแบบฝังตวั หลายหน่วย  ระบบฝังตวั บนเครอื ขา่ ย  การเช่อื มต่อและระบบสญั ญาณ
+ผสม 
+Embedded microcontrollers;  embedded programs;  real-time  operating 
+systems; low-power computing; reliable system design;  design methodologies;  tool 
+support;  embedded multiprocessors;  networked embedded systems; interfacing and 
+mixed-signal systems. 
+ 
+01204331  ส่วนต่อประสานซอฟตแ์ วรร์ ะบบ       3(3-0-
+6) 
+             (System Software Interface) 
+      วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204225  หรอื  01219222 
+ซอฟตแ์ วรท์ ร่ี บั ผดิ ชอบและจดั การการทา  งานของโปรแกรมใชง้ าน แอสเซมเบลอร์ ตวั
+บรรจโุ ปรแกรม  ตวั เช่อื มโยง  ตวั ประมวลผลแมคโคร  คลงั โปรแกรม  ความสมั พนั ธร์ ะหว่าง
+ระบบปฏบิ ตั กิ ารและซอฟตแ์ วรก์ ารแปลภาษาโปรแกรม 
+Software  responsible  for  managing  execution  of  application  programs; 
+assemblers;  loaders;  linkers;  macro-preprocessor;  libraries;  relationships  between 
+operating systems and language translators. 
+ 
+ 
+ 
+ 
+ 
+01204421        เครอื ขา่ ยคอมพวิ เตอร ์             3(3-0-6)  
+             (Computer Networks)  
+    วชิ าทต่ี อ้ งเรยี นมาก่อน :  01204325 หรอื  01219224 
+ชุดโพรโทคอลทซี พี /ีไอพ ี  การออกแบบเลขทอ่ี ยไู่ อพ ี  โพรโทคอลการจดั เสน้ ทาง การ
+เช่อื มโยงระหว่างเครอื ขา่ ยดว้ ยทซี พี /ีไอพ ี   การจดั การเครอื ขา่ ย    ความมนั่ คงของเครอื ขา่ ย 
+เอม็ พแี อลเอส  โปรแกรมประยกุ ตด์ า้ นเครอื ขา่ ย 
+TCP/IP protocol suite; IP address design; routing protocols; internetworking with 
+TCP/IP; network management; network security; multi-protocal fable switching; network 
+applications. 
+ 
+01204422         ปฏบิ ตั กิ ารเครอื ข่ายและการตงั้ ค่าพน้ื ฐาน       1(0-3-
+2) 
+             (Basic Networks and Network Configuration Laboratory) 
+             วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204421 หรอื เรยี นพรอ้ มกนั  
+    ปฏบิ ตั กิ ารเกย่ี วกบั วชิ า 01204421 
+                Laboratory  for  01204421. 
+ 
+01204423         สถาปัตยกรรมเคอรเ์ นลเครอื ขา่ ยและการประยกุ ตใ์ ชง้ าน       3(3-0-
+6) 
+             (Network Kernel Architectures and Implementation) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน: 01204332 หรอื  01219222   และ 01204421 
+แนวคดิ การพฒั นาสถาปัตยกรรมเคอรเ์ นลเครอื ขา่ ย  โครงสรา้ งขอ้ มลู ในระดบั เคอร์
+เนล โครงสรา้ งตวั ขบั  การอา้ งองิ ต าแหน่งความจา   การประสานจงั หวะในเคอรเ์ นล โปรเซสและ
+การขดั จงั หวะ การส่งขอ้ มลู ในระดบั เคอรเ์ นล การพฒั นาโมดลู เครอื ขา่ ยในระดบั เคอรเ์ นล การ
+เช่อื มต่อระหว่างโมดลู เคอรเ์ นล การประยกุ ตใ์ ชส้ ถาปัตยกรรมเคอรเ์ นลเครอื ขา่ ย 
+Network  kernel  architecture  concept;  kernel  data  structure;  device  driver 
+structure; memory addressing; kernel synchronization; process and interrupts; data 
+communication in kernel level; kernel module implementation; kernel module interface; 
+network kernel architecture application. 
+ 
+01204425    การโปรแกรมระบบอนิ เทอรเ์ น็ต       3(3-0-
+6)                  (Internet System Programming) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204325 หรอื  01219224 
+ทซี พี /ีไอพ ี การเขยี นโปรแกรมรบั -ใหบ้ รกิ าร  การส่อื สารระหว่างกระบวนการ  การต่อ
+ประสานซอ็ กเกต็ ทซี พี แี ละยดู พี ซี อ็ กเกต็   กระบวนการดมี อน รอวซ์ อ็ กเกต็  ขนั้ ตอนวธิ สี  าหรบั
+ 
+ผรู้ บั และผใู้ หบ้ รกิ าร โปรแกรมขบั อุปกรณ์เครอื ข่าย 
+TCP/IP; client-server programming; interprocess communications; TCP and 
+UDP socket interfaces; daemon process; raw sockets; algorithm for client and server; 
+network device driver.   
+01204426  ปฏบิ ตั กิ ารเครอื ข่ายและการตงั้ ค่าขนั้ สงู         3(2-3-
+6) 
+    (Advanced Network and Network Configuration) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204421 และ 01204422 
+โพรโทคอลการจดั เส้นทาง  การตงั้ ค่าการควบคุมการเขา้ ถงึ   การออกแบบและการ
+ตงั้ ค่าระบบแลนเสมอื น  ระบบการสวติ ช์  การออกแบบระบบเครอื ข่ายบรเิ วณกว้าง การ
+ทา  งานรว่ มกนั ของอุปกรณ์จากหลากหลายผผู้ ลติ  
+Routing protocols; access control lists; design and configuration of virtual 
+LANs; switching systems; wide area network design; multi-vender device 
+interoperability. 
+ 
+01204427  ความปลอดภยั ระบบคอมพวิ เตอรแ์ ละเครอื ขา่ ย                                             3(3-0-
+6) 
+    (Computer System and Network Security)   
+ความปลอดภัยทางระบบคอมพิวเตอร์และระบบเครือข่ายท่ีใช้งาน การโจมตี
+โดยทวั่ ไป การป้องกนั และการลดปัญหาจากการโจมตี จุดอ่อนของทซี พี ไี อพ ี จุดอ่อนของ
+ระบบปฏบิ ตั กิ ารโดยทวั่ ไป เคร่อื งมอื ในการตรวจสอบความปลอดภยั  การทดสอบการเจาะ
+ระบบเครอื ขา่ ย การรบั มอื กบั เหตุการณ์ การพฒั นานโยบายความปลอดภยั   
+Practical computer system and network security; common security attacks; 
+attack prevention and mitigation; TCP/IP vulnerabilities; common OS vulnerabilities; 
+security auditing tools; network penetration testing; incident handling; security policy 
+development.  
+ 
+01204428  ระบบคอมพวิ เตอรฝ์ ังตวั แบบไรส้ าย      3(3-0-6) 
+    (Wireless Embedded Systems) 
+สถาปัตยกรรม การประยุกต์ และชุดโพรโทคอลสา  หรบั เครอื ข่ายฝังตวั ไรส้ าย โพรโท
+คอลส่อื สารท่รี ะดบั ต่าง ๆ การหาเส้นทางและการไหลของข้อมูล การผสมและประมวลผล
+ข้อมูลระหว่างทาง การอ้างอิงปลายทางเชิงอุปกรณ์และเชิงข้อมูล การจดั การก าลงั  การ
+ควบคุมโทโพโลจ ี การพฒั นาและตดิ ตงั้ ซอฟตแ์ วรบ์ นสถานีเช่อื มโยงไรส้ าย 
+Wireless embedded system architectures,  applications,  and protocol stack; 
+communication  protocols at different layers; routing and data flow; on-route data 
+ 
+aggregation  and  processing;  node- centric  and  data- centric  addressing;  power 
+management; topology control; developing and deploying software on wireless nodes. 
+ 
+ 
+ 
+ 
+ 
+01204429  เครอื ขา่ ยไรส้ ายและการจา  ลองเครอื ขา่ ย       3(3-0-
+6) 
+    (Wireless Networks and Simulation) 
+การส่อื สารแบบไร้สาย เครอื ข่ายเฉพาะท่แี บบไร้สาย เทคโนโลย ี มาตรฐานและ
+ส่วนประกอบ การควบคุมการใช้ส่อื แบบไรส้ าย สถาปัตยกรรมทางกายภาพแบบไรส้ ายและ
+การออกแบบ การเบ็ดเสร็จและการท าให้เกิดผล อินเทอร์เน็ตแบบเคล่อื นท่ ี การจ าลอง
+เครอื ขา่ ย การประเมนิ ประสทิ ธภิ าพเครอื ขา่ ย 
+Wireless communications, wireless local area network, technologies, standards, 
+and components; wireless medium access control; wireless physical architecture and 
+system design; integration and implementation; mobile internet; network simulation; 
+network performance evaluation. 
+ 
+01204433  การแปลภาษาโปรแกรม              3(3-0-
+6)  
+    (Programming Language Translation) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204225 หรอื  01219222 
+การจดั องคป์ ระกอบภาษาโปรแกรม ความรเู้ บอ้ื งตน้ เก่ยี วกบั การแปลภาษา โปรแกรม
+และตวั แปลภาษา  การวเิ คราะหเ์ ชงิ ศพั ท ์ เชงิ วากยสมั พนั ธ ์ และเชงิ ความหมาย    การจดั
+ดา  เนินการตารางสญั ลกั ษณ์  การสรา้ งรหสั เครอ่ื ง    การปรบั รหสั ใหเ้ หมาะทส่ี ุด    การจดั การ
+ขอ้ ผดิ พลาดระหว่างการแปล 
+Organization of programming languages; introduction to programming language 
+translation  and  translators;  lexical,  syntax,  and  semantic  analysis;  symbol-table 
+manipulation; code generation and code optimization; compile-time error handling. 
+ 
+01204434  ระบบค านวณแบบขนานและแบบกระจาย             3(3-0-
+6)  
+    (Parallel and Distributed Computing Systems)  
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204225 และ 01204332    หรอื  01219222 
+หลกั การและแนวทางปฏบิ ตั ขิ องระบบแบบกระจาย  ฮารด์ แวรแ์ ละซอฟตแ์ วรแ์ บบ
+ 
+ขนาน  ระบบขยายไดแ้ ละระบบขนาดใหญ่  ความมนั่ คงและความปลอดภยั ของระบบ  การ
+คา  นวณในกลุ่มเมฆ แมปรดี วิ ซ ์
+Principles and practices of distributed systems; parallel hardware and software; 
+scalable and large-scale systems; system reliability and security; cloud computing; 
+MapReduce. 
+ 
+ 
+ 
+ 
+01204435  มโนทศั น์ภาษาโปรแกรม              3(3-0-
+6)  
+    (Programming Language Concepts)  
+โครงสรา้ งและการจดั องคป์ ระกอบภาษาโปรแกรม  ตวั ประมวลผลภาษา 
+วากยสมั พนั ธ ์ ชนิดขอ้ มลู  การควบคุมล าดบั การท างาน การควบคุมโปรแกรมยอ่ ย การจดั การ
+หน่วยเกบ็ ความจา    เทคนิคการสมั ฤทธกิ ารแต่ละส่วนของภาษา  การศกึ ษาและเปรยี บเทยี บ
+กรอบแนวคดิ หลกั ของการโปรแกรม 
+Structure and organization of programming languages; language processors; 
+syntax;  data  types;  sequence  control;  subprogram  control;  storage  management; 
+implementation techniques of each language feature; the study and comparison of 
+major programming paradigms.  
+ 
+01204436       วศิ วกรรมระบบเวลาจรงิ                            3(3-0-
+6) 
+                    (Real-time System Engineering) 
+                               นิยามและประเภทของระบบเวลาจริง ประเด็นการออกแบบระบบเวลาจริง ตัว    
+แบบฟอรม์ อล ความคงทนต่อความเสยี หาย ความเช่อื ถอื ได ้ การทางานพรอ้ มกนั  การทาให้
+เข้าจงั หวะกัน การส่ือสาร การจดั ลาดับเวลาจริง การสนับสนุนของภาษาและตัวอย่าง
+เครอ่ื งมอื  ระบบเวลาจรงิ แบบฝังตวั  กรณศี กึ ษา  
+                               Definition and types of real-time systems, real-time system design issues, formal 
+models, fault tolerance, reliability, concurrency, synchronization, communications, real-
+time scheduling, language support and tool examples, real-time embedded systems, 
+Case study. 
+            
+01204451  การออกแบบระบบฐานขอ้ มลู              3(3-0-
+6)  
+    (Database Systems Design)  
+ 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204351  หรอื  01219231 
+แบบจา  ลองของขอ้ มลู   ระบบฐานขอ้ มลู แบบลา  ดบั ชนั้   แบบเครอื ขา่ ย  และแบบเชงิ
+สมั พนั ธ ์ โครงสรา้ งฐานขอ้ มลู เชงิ ตรรก    เอนทติ แ้ี ละความสมั พนั ธ ์ การปรบั บรรทดั ฐานของ
+ขอ้ มลู   ภาษาจดั การฐานขอ้ มลู เพ่อื การก าหนดและสอบถาม  การรกั ษาความปลอดภยั ของ
+ขอ้ มลู  การเกบ็ สา  รองขอ้ มลู  การรกั ษาความถูกตอ้ ง ความเช่อื ถอื ได ้ และความคงสภาพของ
+ขอ้ มลู  ระบบฐานขอ้ มลู แบบกระจาย  
+Data  models;    hierarchical  databases,  network  databases,  and  relational 
+databases;  structures of logical databases;  entities and relations;  normalization;  data 
+definition  languages  and  data  manipulation  languages;    data  security,  backup, 
+consistency, reliability, and integrity;  distributed databases. 
+ 
+01204452  การจดั การเทคโนโลยสี ารสนเทศ        3(3-0-
+6)  
+    (Information Technology Management) 
+การจดั ระบบหน่วยงานเทคโนโลยสี ารสนเทศ การวางแผนงานระบบสารสนเทศ การ
+จดั การทรพั ยากรทางเทคโนโลยสี ารสนเทศ  การจดั การโครงการส าหรบั การออกแบบ  การ
+พฒั นา  การสรา้ ง    การตดิ ตงั้   และการประเมนิ ผลระบบสารสนเทศ  การวเิ คราะหค์ ่าใชจ้ ่าย/
+ผลประโยชน์ส าหรบั ระบบสารสนเทศ  ผลกระทบของเทคโนโลยสี ารสนเทศต่อองคก์ ร  ต่อ
+บุคคล และต่อสงั คม จรยิ ธรรม กฎหมายและนโยบายระดบั ประเทศทเ่ี ก่ยี วขอ้ งกบั เทคโนโลยี
+สารสนเทศ 
+Organizing  information  technology  (IT)  departments;  planning  information 
+systems; managing IT resources; project management for the design, development, 
+implementation, installation, and evaluation of an information system; cost/benefit 
+analysis for information systems; impacts of IT on organizations, individuals, and 
+societies; ethics, laws, and national policies concerning IT. 
+ 
+01204453  การคน้ คนื และการท าเหมอื งขอ้ มลู เวบ็         3(3-0-
+6) 
+    (Web Information Retrieval and Mining) 
+พน้ื ฐานการคน้ คนื   และการจดั ลา  ดบั ขอ้ มลู การประเมนิ ค่าประสทิ ธภิ าพ  การคราวลงิ่
+เวบ็ ขนาดใหญ่  เครอ่ื งมอื ในการทา  ดรรชนี  โครงสรา้ งพน้ื ฐานขนาดใหญ่  ระบบไฟลก์ ูลเกลิ  
+สมบตั ทิ างสถติ แิ ละโครงสรา้ งของเวบ็ กราฟ  ประเภทการลา  ดบั แบบองิ ลงิ ก ์ การทา  เหมอื ง
+ขอ้ มลู เวบ็ เน้อื หาและเวบ็ จากลอ็ ก เครอ่ื งมอื ทา  เหมอื งแบบจา  ลองการปรบั ใหมข่ องเวบ็  
+Basic of information retrieval and ranking; performance evaluation; large- scale 
+web crawling; indexing tool; large-scale infrastructure; google file system; statistical 
+and structural properties of the web graph; type of link-based rankings; web content 
+ 
+and web log mining; mining tool; web refresh model. 
+ 
+01204454  การจดั การเทคโนโลยแี ละนวตั กรรม        3(3-0-
+6) 
+    (Management of Technology and Innovation) 
+เทคโนโลยเี ทคโนโลยสี ารสนเทศนวตั กรรมกลยุทธ์เพ่อื การจดั การเทคโนโลยแี ละ
+นวัตกรรมวัฎจกั รชีวิตของเทคโนโลยีและนวัตกรรมการวางแผนเทคโนโลยีการพัฒนา
+เทคโนโลย ี การควบคุมและการประเมนิ ผลเทคโนโลย ี  การวางแผนนวตั กรรม   การน า
+นวตั กรรมไปปฏบิ ตั  ิ  การควบคุมและการประเมนิ ผลนวตั กรรมการแขง่ ขนั     
+Technology;  information technology; innovation;  strategy development for 
+managing technology and innovation; technology and Innovation life cycle; technology 
+planning, development, evaluation and control; innovation planning, implementation, 
+evaluation and control; competitiveness of technology and innovation. 
+01204456       การท าเหมอื งขอ้ มลู เครอื ขา่ ยสงั คม                                                         3(3-0-
+6) 
+                    (Social Networks Data Mining) 
+แนวคดิ หลกั และขนั้ ตอนวธิ กี ารในการวเิ คราะหข์ อ้ มลู บนเครอื ขา่ ยสงั คมออนไลน์จาก
+มมุ มองของการท าเหมอื งขอ้ มลู  การคน้ พบชุมชน การวเิ คราะหว์ วิ ฒั นาการ การท านายการ
+เช่อื มโยง การวเิ คราะหอ์ ทิ ธพิ ล 
+          Key concepts and algorithms for analyzing online social networks from the data 
+mining point of view; community discovery; evolution analysis; link prediction; influence 
+analysis. 
+ 
+01204461   ปัญญาประดษิ ฐ ์             3(3-0-
+6)  
+    (Artificial Intelligence)  
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204313 หรอื  01219218 
+ขอบเขตและท่มี าของปัญญาประดษิ ฐ์ การแทนความรู้ โครงสร้างความจ าการหา
+เหตุผล  การหาเหตุผลแบบน่าจะเป็นและเทคนิคการค้นหา เกมส์ การวางแผน การเรยี นรู้
+การประมวลผลภาษาธรรมชาต ิ  ทศั นศาสตรค์ อมพวิ เตอร ์ ระบบผเู้ ชย่ี วชาญ  
+Introduction  to  artificial  intelligence:   its  scope,  history  and  techniques;  
+knowledge representation; memory structures; reasoning mechanisms; probabilistic 
+reasoning and searching techniques;  games; planning; machine learning; natural 
+language processing; computer vision; expert systems. 
+ 
+ 
+01204462   ระบบผชู้ า  นาญการเบอ้ื งตน้               3(3-0-
+6)  
+    (Introduction to Expert Systems)  
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204461    
+เทคนิคการแทนความรู้แบบกรอบ แบบกฎเกณฑ์ และแบบข่ายความหมาย การ
+ค้นหาฐานความร ู้ การอ้างเหตุผลด้วยวธิ เี ดนิ หน้าและถอยหลงั  ตวั อย่างระบบผู้ช านาญการ 
+การออกแบบและการสร้างระบบผู้ช านาญการ  การเช่ือมโยงกับระบบความเข้าใจ
+ภาษาธรรมชาต ิ  
+Knowledge representation techniques: frames, rules, and semantic networks; 
+searching  knowledge  base;  reasoning  mechanisms  with  forward  chaining  and 
+backward chaining; expert system case studies; design and development of expert 
+systems: knowledge acquisition, validation and verification, user interface and natural 
+language understanding. 
+ 
+ 
+ 
+ 
+ 
+01204463  การประมวลผลภาษาธรรมชาตเิ บอ้ื งตน้              3(3-0-
+6)   
+    (Introduction to Natural Language Processing) 
+หลกั การคา  นวณน าไปส่พู น้ื ความรขู้ องการประมวลผลภาษาธรรมชาต ิ  การวเิ คราะห์
+โครงสรา้ งประโยคเชงิ วากยสมั พนั ธ ์การแทนความหมายของประโยค การวเิ คราะหแ์ ละสรา้ ง
+ความเกย่ี วพนั ระหว่างประโยค   
+Introduction  to  basic  computation  of  natural  language  processing;  syntax 
+analysis of structure of sentences;  semantics of sentences; analysis and relation 
+creation between sentences. 
+ 
+01204465  การท าเหมอื งขอ้ มลู และการคน้ พบความรเู้ บอ้ื งตน้         3(3-0-
+6) 
+    (Introduction to Data Mining and Knowledge Discovery) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204351  หรอื  01219231   
+กระบวนการค้นพบความร ู้ การวเิ คราะห์ขอ้ มลู   การส ารวจขอ้ มลู   การเตรยี มขอ้ มูล 
+เทคนิคการท าเหมอื งข้อมูล  การจ าแนกข้อมูล  การค้นพบกฎความสมั พนั ธ์  การจดั กลุ่ม
+ขอ้ มลู  การประยกุ ตก์ ารทา  เหมอื งขอ้ มลู ในงานวศิ วกรรม 
+Knowledge  discovery  process;  data  analysis;  data  exploration;  data  pre-
+processing; data mining techniques;  data classification; association rule discovery; 
+ 
+data clustering; data mining applications in engineering fields. 
+ 
+01204472   การคา  นวณเชงิ ตวั เลข               3(3-0-
+6)   
+    (Numerical Computation)  
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204212 หรอื  01219218   และ 01417168 
+โครงสรา้ งระบบเลขจา  นวนของคอมพวิ เตอร ์ ขนั้ ตอนวธิ เี พ่อื การประมวลผลเลขคณติ   
+การใชค้ อมพวิ เตอรเ์ พ่อื การแก้ปัญหาทางวศิ วกรรมโดยรวมถงึ  การหาค่าประมาณการ  การ
+หาอนุพนั ธ ์ การอนิ ทเิ กรตเชงิ ตวั เลข การเขา้ สมการอนุพนั ธ ์ ระบบสมการเชงิ เสน้  และไม่เชงิ
+เสน้  การปรบั หาเสน้ โคง้ ทเ่ี หมาะสม และตวั แปลงฟูเรยี รอ์ ยา่ งเรว็   
+Number  systems;  algorithms  for  number  crunching;  solving  engineering 
+problems with computers: estimation, differentiation, numerical integration, differential 
+equtations, linear and non-linear system equations, curve fitting, and fast Fourier 
+transform. 
+ 
+ 
+ 
+ 
+ 
+ 
+01204473  ระบบเมคาทรอนิกสแ์ ละการควบคุม        3(3-0-
+6) 
+    (Mechatronic System and Control) 
+การสร้างตัวแบบระบบพลวัตและการจ าลองแบบ การบ่งช้ีระบบเบ้ืองต้น การ
+วเิ คราะหใ์ นโดเมนเวลา  การวเิ คราะหใ์ นโดเมนความถ่เี สถยี รภาพ  การออกแบบตวั ควบคุม 
+ระบบหุ่นยนต์และเมคคาทรอนิกส์ท่ใี ช้งานจรงิ   เซน็ เซอรแ์ ละแอกตูเอเตอรค์ วามฉลาดของ
+เครอ่ื งจกั ร สนเทศศาสตรอ์ ตั โนมตั ใิ นอุตสาหกรรม 
+Modeling dynamic systems and simulation;  basic system identification;  time 
+domain analysis;  frequency domain analysis;  stability; controller design;  practical 
+robotic  and  mechatronic  systems;    sensor  and  actuators;    machine  intelligence;  
+industrial informatics. 
+ 
+01204481     คอมพวิ เตอรก์ ราฟิกสข์ นั้ พน้ื ฐาน                  3(3-0-
+6)   
+                     (Foundations of Computer Graphics) 
+      วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204313 หรอื  01219218 
+ 
+ประวตั ศิ าสตรแ์ ละภาพรวมในคอมพวิ เตอรก์ ราฟิกส ์ ระบบคอมพวิ เตอรก์ ราฟิกส ์ ส่วน
+ต่อประสานสา  หรบั การเขยี นโปรแกรมประยกุ ตก์ ราฟิกส ์ ขนั้ ตอนวธิ แี รสเตอรก์ ราฟิกสพ์ ้นื ฐาน 
+การแปลงเรขาคณิต ทัศนะ การพิจารณาก าหนดพ้ืนผิวท่ีปรากฏ การส่องแสงและการ
+เรนเดอรพ์ น้ื ผวิ  
+ History  and  overview  in  computer  graphics;  computer  graphics  systems; 
+graphics  application  programming  interface;  basic  raster  graphics  algorithms; 
+geometrical transformations; viewing; visible surface determination; illumination and 
+surface-rendering. 
+     
+01204482    การโตต้ อบระหว่างคอมพวิ เตอรก์ บั มนุษย ์            3(3-0-
+6) 
+    (Computer-Human Interfaces)  
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01204313  หรอื  01219218   
+การออกแบบและสรา้ งระบบตดิ ต่อระหว่างผู้ใช้กบั คอมพวิ เตอร ์ สถาปัตยกรรมด้าน
+ฮารด์ แวร ์ และซอฟต์แวรข์ องสถานีงานส่วนบุคคล  ระบบการโปรแกรมเชงิ วตั ถุการจดั การ
+ส่วนแสดงผลแบบโตต้ อบ และช่องหน้าต่าง  
+Design and construction of human-computer interfaces; hardware and software 
+architecture for personal workstations; object-oriented programming; interactive display 
+management and windows.  
+ 
+ 
+ 
+01204483  การประมวลผลสญั ญาณภาพดจิ ทิ ลั           3(3-0-
+6) 
+    (Digital Image Processing)    
+การประมวลผลสญั ญาณภาพดจิ ทิ ลั  เน้นขนั้ ตอนวธิ ใี นบรบิ ทของการประยุกต์การใช้
+งานจรงิ  เช่น การประมวลผลภาพ การแปลงฮิสโตแกรม การขจดั สญั ญาณรบกวน การ
+ตรวจจบั ขอบ การปรบั แต่งภาพ การแบ่งส่วนภาพ การเขา้ รหสั ของภาพด้วยคอมพวิ เตอร์ 
+การบบี อดั ขอ้ มลู   รปู ภาพส ี การแทนวตั ถุในรปู ภาพและการรจู้ า  วตั ถุ 
+Digital image processing emphasizes on image processing algorithms in the 
+context of real-world applications such as histogram transformation, noise reduction, 
+edge  detection,  image  enhancement,  image  segmentation,  image  coding, 
+compression, color image representation and object representation and recognition. 
+ 
+01417167       คณติ ศาสตรว์ ศิ วกรรม I                    3(3-0-
+6)  
+ 
+        (Engineering Mathematics I)  
+ลมิ ติ และความต่อเน่ืองของฟังก์ชนั  อนุพนั ธแ์ ละการประยุกต์ ค่าเชงิ อนุพนั ธ ์ ปรพิ นั ธ์
+และการประยุกต์ ระบบพกิ ดั เชงิ ขวั้  ปรพิ นั ธ์ไม่ตรงแบบ ล าดบั และอนุกรม การอุปนัยเชิง
+คณติ ศาสตร ์  
+Limits and continuity of functions, derivatives and applications, differentials, 
+integration and applications, polar coordinates , improper integrals, sequences and 
+series, mathematical induction. 
+ 
+01417168       คณติ ศาสตรว์ ศิ วกรรม II                   3(3-0-
+6)  
+        (Engineering Mathematics II)  
+วชิ าทต่ี อ้ งเรยี นมาก่อน : 01417167  
+เวกเตอรแ์ ละเรขาคณติ วเิ คราะหท์ รงตนั  แคลคลู สั ของฟังกช์ นั หลายตวั แปร แคลคลู สั
+ของ ฟังกช์ นั ค่าเวกเตอร ์  
+Vectors and solid analytic geometry, calculus of multivariables functions, 
+calculus of vectorvalued functions. 
+ 
+01420111       ฟิสกิ สท์ วั่ ไป I                      3(3-0-
+6)  
+          (General Physics I)  
+กลศาสตร ์ การเคล่อื นทแ่ี บบฮารม์ อนิก คล่นื  กลศาสตรข์ องไหล อุณหพลศาสตร ์  
+Mechanics, harmonic motion, waves, fluid mechanics, thermodynamics. 
+ 
+ 
+ 
+01420112       ฟิสกิ สท์ วั่ ไป II                      3(3-0-
+6)  
+  (General Physics II)  
+  วชิ าทต่ี อ้ งเรยี นมาก่อน : 01420111  
+ไฟฟ้าแมเ่ หลก็  คล่นื แมเ่ หลก็ ไฟฟ้า ทศั นศาสตร ์ ฟิสกิ สย์ คุ ใหมเ่ บอ้ื งตน้  และนิวเคลยี ร์
+ฟิสกิ ส ์  
+Electromagnetism,  electromagnetic  waves,  optics,  introduction  to  modern 
+physics and nuclear physics. 
+ 
+01420113       ปฏบิ ตั กิ ารฟิสกิ ส ์ I                     1(0-3-
+2)  
+ 
+(Laboratory in Physics I)  
+วชิ าทต่ี อ้ งเรยี นมาก่อน : 01420111 หรอื พรอ้ มกนั  หรอื  01420117 หรอื พรอ้ มกนั   
+ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป I หรอื  ฟิสกิ สพ์ น้ื ฐาน I  
+Laboratory for General Physics I or Basic Physics I. 
+ 
+01420114         ปฏบิ ตั กิ ารฟิสกิ ส ์ II                                                    1(0-3-2) 
+    (Laboratory in Physics II) 
+    วชิ าทต่ี อ้ งเรยี นมาก่อน : 01420113 และ 01420112 หรอื พรอ้ มกนั  หรอื  01420118  
+    หรอื พรอ้ มกนั   
+ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป II หรอื ฟิสกิ สพ์ น้ื ฐาน II  
+Laboratory for General Physics II or Basic Physics II. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+33 
+ 
