@@ -28,21 +28,28 @@ must_register_with = '        <mustRegisterWith rdf:resource="http://www.semanti
 none_must = '        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>'
 
 
+def get_subject_name(id: str) -> str:
+    assert isinstance(id, str)
+    if len(id) != len('01219114'):
+        raise ValueError(f"Length of subject id is wrong! '{id}' (len={len(id)})")
+    return f's{id}'
+
+
 def main(infile: str, outfile: str):
     with open(infile, 'r', encoding='utf-8') as csvfile:
         data = csv.DictReader(csvfile)
 
         all_indivs = []
         for row in data:
-            indv_name = f"S{row['id']}"
+            indv_name = get_subject_name(row['id'])
             pres = [p.strip() for p in row['prerequisites'].split(',')]
             if pres:
-                prereqs = '\n'.join(prereq.format(f"S{sub}") for sub in pres)
+                prereqs = '\n'.join(prereq.format(get_subject_name(sub)) for sub in pres)
             else:
                 prereqs = none_prereq
             coregs = [p.strip() for p in row['coregister'].split(',')]
             if coregs:
-                musts = '\n'.join(must_register_with.format(f"S{sub}") for sub in coregs)
+                musts = '\n'.join(must_register_with.format(get_subject_name(sub)) for sub in coregs)
             else:
                 musts = none_must
             sem_allow = row['semester']
