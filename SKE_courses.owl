@@ -165,7 +165,6 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#mustRegisterWith">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
         <rdfs:range>
@@ -471,7 +470,6 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
         <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
         <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Fatalaijon"/>
-        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
     </owl:NamedIndividual>
     
 
@@ -520,6 +518,1011 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+        <academicYearEnrolled rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</academicYearEnrolled>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01175114_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01175114_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01204211_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01204211_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#C"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01204211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219114_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219114_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219115_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219115_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219116_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219116_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219117_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219117_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219211_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219211_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219212_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219212_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B+"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219212"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219214_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219214_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219214"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219217_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219217_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219217"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219218_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219218_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219218"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219222_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219222_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219223_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219223_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219224_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219224_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B+"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219224"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219231_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219231_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219231"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219243_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219243_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219243"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219245_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219245_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219245"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219266_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219266_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219266"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219335_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219335_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219335"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219345_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219345_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219345"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219346_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219346_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219346"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219366_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219366_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219366"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219382_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01219382_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219382"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355111_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355111_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355112_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355112_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355112"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355113_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355113_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355113"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355204_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01355204_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01385223_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01385223_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01385223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01417167_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01417167_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417167"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01417168_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01417168_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417168"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420111_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420111_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B+"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420112_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420112_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#C"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420112"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420113_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420113_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420113"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420114_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01420114_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999011_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999011_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999011"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999021_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999021_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999021"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999023_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999023_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999032_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999032_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999032"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999034_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999034_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999034"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999041_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999041_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B+"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999041"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999111_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999111_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999141_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490_s01999141_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545490"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999141"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Student"/>
+        <academicYearEnrolled rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</academicYearEnrolled>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01175165_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01175165_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175165"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01204211_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01204211_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01204211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219114_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219114_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219115_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219115_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219116_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219116_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219117_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219117_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219211_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219211_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219212_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219212_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219212"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219214_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219214_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219214"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219217_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219217_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219217"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219218_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219218_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219218"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219222_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219222_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219223_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219223_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219224_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219224_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219224"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219231_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219231_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219231"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219243_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219243_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219243"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219245_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219245_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219245"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219266_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219266_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219266"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219335_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219335_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219335"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219345_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219345_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219345"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219346_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219346_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219346"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219366_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219366_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219366"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219382_2020_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01219382_2020_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219382"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355111_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355111_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355112_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355112_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355112"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355113_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355113_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355113"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355204_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355204_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355206_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01355206_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01385223_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01385223_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01385223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01417167_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01417167_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417167"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01417168_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01417168_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417168"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420111_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420111_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420112_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420112_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420112"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420113_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420113_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420113"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420114_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01420114_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999011_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999011_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999011"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999021_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999021_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999021"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999023_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999023_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999032_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999032_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999032"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999034_2018_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999034_2018_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999034"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999041_2019_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999041_2019_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999041"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999111_2018_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999111_2018_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999141_2019_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619_s01999141_2019_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#b6110545619"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999141"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175114"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175165 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175165"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175xxx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01175xxx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="th"></rdfs:comment>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="th">กจิกรรมพลศกึษา</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01204211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01204211">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">Sets, sequences, and functions; logic; the growth of functions; methods of proof 
+and mathematical induction; recursive definitions and algorithms; counting methods 
+and recurrence relations; relations; introduction to graph theory;  vector spaces and 
+orthogonality;    matrices  and  matric  representations  of  linear  systems;    linear 
+transformations; solution of linear systems;  eigensystems.</rdfs:comment>
+        <rdfs:comment xml:lang="th">เซต ลา  ดบั  และฟังกช์ นั  ตรรกศาสตร ์ การเตบิ โตของฟังกช์ นั  วธิ กี ารพสิ ูจน์และอุปนยั
+วธิ ที างคณติ ศาสตร ์ นิยามและขนั้ ตอนวธิ แี บบเรยี กซ้า    วธิ กี ารนับและความสมั พนั ธแ์ บบ
+ปรากฏซ้า   ความสมั พนั ธ ์ความรเู้ บอ้ื งตน้ เกย่ี วกบั ทฤษฎกี ราฟ  ปรภิ ูมเิวกเตอรแ์ ละการตงั้ ฉาก  
+เมตรกิ ซแ์ ละการน าเสนอระบบเชงิ เสน้ ดว้ ยเมตรกิ ซ ์  การแปลงเชงิ เสน้   คา  ตอบของระบบเชงิ
+เสน้   ระบบไอเกน</rdfs:comment>
+        <rdfs:label xml:lang="en">Discrete Mathematics and Linear Algebra</rdfs:label>
+        <rdfs:label xml:lang="th">คณิตศาสตรเ์ตม็หน่วยและพชีคณิตเชงิเสน้</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114">
@@ -528,12 +1531,12 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
         <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
         <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
-        <rdfs:comment xml:lang="en">Visual programming; variables; selection; iteration; methods; arrays; classes;
+        <rdfs:comment xml:lang="en">Visual programming; variables; selection; iteration; methods; arrays; classes; 
 object-oriented programming; graphical user interface; data handling.</rdfs:comment>
-        <rdfs:comment xml:lang="th">การเขียนโปรแกรมด้วยภาพ ตัวแปร ทางเลือก การวนรอบ เมทธอด อาเรย์ คลาส
-การโปรแกรมเชิงวัตถุ การติดต่อกับผู้ใช้โดยใช้ภาพสัญลักษณ์ การจัดการข้อมูล</rdfs:comment>
+        <rdfs:comment xml:lang="th">การเขยี นโปรแกรมดว้ ยภาพ  ตวั แปร ทางเลอื ก การวนรอบ เมทธอด อาเรย ์ คลาส 
+การโปรแกรมเชงิ วตั ถุ การตดิ ต่อกบั ผใู้ ชโ้ ดยใชภ้ าพสญั ลกั ษณ์ การจดั การขอ้ มลู</rdfs:comment>
         <rdfs:label xml:lang="en">Computer Programming I</rdfs:label>
-        <rdfs:label xml:lang="th">การโปรแกรมคอมพิวเตอร์ I</rdfs:label>
+        <rdfs:label xml:lang="th">การโปรแกรมคอมพวิเตอร์I</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -543,8 +1546,14 @@ object-oriented programming; graphical user interface; data handling.</rdfs:comm
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
         <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">I  
+      Laboratory for</rdfs:comment>
+        <rdfs:comment xml:lang="th">ปฏบิ ตั กิ ารส าหรบั วชิ า 01219114 การโปรแกรมคอมพวิ เตอร ์</rdfs:comment>
+        <rdfs:label xml:lang="en">Computer Programming Laboratory I</rdfs:label>
+        <rdfs:label xml:lang="th">ปฏบิตักิารการโปรแกรมคอมพวิเตอร์I</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -556,21 +1565,830 @@ object-oriented programming; graphical user interface; data handling.</rdfs:comm
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
         <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
-        <rdfs:comment xml:lang="en">Induction and recursion; object-oriented programming; encapsulation; dynamic
-dispatching; interface; inheritance; subtyping; exception and exception handling;
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">Induction and recursion; object-oriented programming; encapsulation; dynamic 
+dispatching;  interface;  inheritance;  subtyping;  exception  and  exception  handling; 
 lambda expression; design patterns; principles of software engineering.</rdfs:comment>
-        <rdfs:comment xml:lang="th">อินดัคชั่นและรีเคอร์ชั่น การโปรแกรมเชิงวัตถุ เอ็นแค๊ปซูเลชั่น การดิสแพชแบบพล
-วัตร อินเตอเฟส อินเฮอริแตนซ์ไทป์ รอง สภาวะไม่ปกติและการจัดการ นิพจน์แลมบ์ดา แบบ
-แผนการออกแบบซอฟต์แวร์หลักการพื้นฐานทางวิศวกรรมซอฟต์แวร</rdfs:comment>
+        <rdfs:comment xml:lang="th">อนิ ดคั ชนั่ และรเีคอรช์ นั่   การโปรแกรมเชงิ วตั ถุ  เอน็ แค๊ปซเู ลชนั่   การดสิ แพชแบบพล
+วตั ร อนิ เตอเฟส อนิ เฮอรแิ ตนซ ์ ไทป์รอง สภาวะไมป่ กตแิ ละการจดั การ นิพจน์แลมบด์ า แบบ
+แผนการออกแบบซอฟตแ์ วร ์ หลกั การพน้ื ฐานทางวศิ วกรรมซอฟตแ์ วร์</rdfs:comment>
         <rdfs:label xml:lang="en">Computer Programming II</rdfs:label>
-        <rdfs:label xml:lang="th">การโปรแกรมคอมพิวเตอร์ II</rdfs:label>
+        <rdfs:label xml:lang="th">การโปรแกรมคอมพวิเตอร์II</rdfs:label>
     </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">II  
+    Laboratory for</rdfs:comment>
+        <rdfs:comment xml:lang="th">ปฏบิ ตั กิ ารสา  หรบั วชิ า 01219116 การโปรแกรมคอมพวิ เตอร ์</rdfs:comment>
+        <rdfs:label xml:lang="en">Computer Programming Laboratory II</rdfs:label>
+        <rdfs:label xml:lang="th">ปฏบิตักิารการโปรแกรมคอมพวิเตอร์II</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219211">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Program development skill enhancement camp, at least</rdfs:comment>
+        <rdfs:comment xml:lang="th">ค่ายเพมิ่ พนู ทกั ษะการพฒั นาโปรแกรมไมต่ ่า  กว่า 48 ชวั่ โมง</rdfs:comment>
+        <rdfs:label xml:lang="en">Software Development Training Camp</rdfs:label>
+        <rdfs:label xml:lang="th">คา่ยฝึกพฒันาซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219212 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219212">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01204211"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219217"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">I   
+               Laboratory for</rdfs:comment>
+        <rdfs:comment xml:lang="th">ปฏบิ ตั กิ ารส าหรบั วชิ า 01219217 โครงสรา้ งขอ้ มลู และขนั้ ตอนวธิ  ี</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Structure and Algorithm Laboratory</rdfs:label>
+        <rdfs:label xml:lang="th">ปฏบิตักิารโครงสรา้งขอ้มลูและขนั้ตอนวธิี</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219214 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219214">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Probability;  discrete  and  continuous  random  variable;  function  of  random 
+variable;  multiple  random  variables;  sampling;  sampling  distribution;  descriptive 
+statistics;  distribution  visualization;  parameter  estimation;  confidence  intervals; 
+hypothesis testing; Chi-square test; regression analysis; application to software and 
+knowledge engineering problems.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ความน่าจะเป็น ตวั แปรสุ่มไมต่ ่อเน่อื งและต่อเน่อื ง ฟังกช์ นั่ ของตวั แปรสุ่ม ตวั แปรสุ่ม
+หลายตวั   การสุ่มตวั อยา่ ง  การแจกแจงการสุ่มตวั อยา่ ง  สถติ พิ รรณนา การสรา้ งภาพการ
+กระจาย การประมาณค่าพารามเิตอร ์ ช่วงความเช่อื มนั่  การทดสอบสมมตฐิ าน การทดสอบ
+ไคสแควร ์ การวเิ คราะหก์ ารถดถอย  การประยกุ ตก์ บั ปัญหาดา้ นวศิ วกรรมซอฟตแ์ วรแ์ ละ
+ความร ู้</rdfs:comment>
+        <rdfs:label xml:lang="en">Probability and Statistics for Software and Knowledge Engineers</rdfs:label>
+        <rdfs:label xml:lang="th">ความน่าจะเป็นและสถติสิาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219217 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219217">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01204211"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219212"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Abstract data types:  stack, queues, lists, trees, and graphs; data abstraction; 
+basic algorithms for problem solving: analysis of algorithms, correctness of algorithms, 
+complexity analysis, greedy algorithms, divide-and-conquer techniques.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ขอ้ มลู ชนิดนามธรรมพน้ื ฐาน ไดแ้ ก่ กองเรยี บทบั ซอ้ น แถวคอย รายการ ตน้ ไม ้ กราฟ
+เบอ้ื งตน้   การสรา้ งขอ้ มลู นามธรรม  ขนั้ ตอนวธิ พี น้ื ฐานส าหรบั แก้ปัญหา  ไดแ้ ก่  การวเิ คราะห์
+อลั กอรทิ มึ   ความถูกตอ้ งของอลั กอรทิ มึ   การวเิ คราะหค์ วามซบั ซอ้ นของอลั กอรทิ มึ   การ
+ออกแบบอลั กอรทิ มึ ทค่ี รอบคลุมขนั้ ตอนวธิ เี ชงิ ละโมบ และเทคนิคการแบ่งแยกเพ่อื เอาชนะ</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Structure and Algorithm I</rdfs:label>
+        <rdfs:label xml:lang="th">โครงสรา้งขอ้มลูและขนั้ตอนวธิีI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219218 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219218">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219217"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Abstract data types: hashing, dictionary, priority queue; design and analysis 
+of  algorithm:  shortest  path  problem,  minimum  spanning  tree  problem,  dynamic 
+programming, network flow, NP-completeness.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ขอ้ มลู ชนิดนามธรรมพน้ื ฐาน ไดแ้ ก่ การทา  แฮชชงิ่  ดกิ ชนั นาร ีแถวคอยแบบมลี  าดบั  
+ขนั้ ตอนวธิ ใี นสา  หรบั แกป้ ัญหาทซ่ี บั ซอ้ นยงิ่ ขน้ึ  ไดแ้ ก่ การหาระยะทางสนั้ ทส่ี ุด ปัญหาตน้ ไม ้
+สแปน  การโปรแกรมแบบพลวตั  ิ ปัญหาเชงิ การจดั  ปัญหากราฟ ปัญหาเอน็ พบี รบิ ูรณ์</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Structure and Algorithm II</rdfs:label>
+        <rdfs:label xml:lang="th">โครงสรา้งขอ้มลูและขนั้ตอนวธิีII</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219222 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219222">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219223"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Low-level  information  organization  and  representation;  fundamentals  of 
+computing hardware organization; processes and threads; synchronization and parallel 
+programming; memory systems; file systems; introduction to distributed systems.</rdfs:comment>
+        <rdfs:comment xml:lang="th">การจดั การและการแทนขอ้ มลู ในระดบั ล่าง  โครงสรา้ งของฮารด์ แวรพ์ น้ื ฐานในการ
+คา  นวณ โปรเซสและเทรด การซงิ โครไนซแ์ ละการโปรแกรมแบบขนาน ระบบหน่วยความจา   
+ระบบไฟล ์ พน้ื ฐานระบบการคา  นวณแบบกระจาย</rdfs:comment>
+        <rdfs:label xml:lang="en">Introduction to Computer Systems</rdfs:label>
+        <rdfs:label xml:lang="th">พน้ืฐานของระบบคอมพวิเตอร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219223 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219223">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219222"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Laboratory for</rdfs:comment>
+        <rdfs:comment xml:lang="th">ปฏบิ ตั กิ ารสา  หรบั วชิ า 01219222 พน้ื ฐานของระบบคอมพวิ เตอร ์</rdfs:comment>
+        <rdfs:label xml:lang="en">Computer System Laboratory</rdfs:label>
+        <rdfs:label xml:lang="th">ปฏบิตักิารระบบคอมพวิเตอร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219224 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219224">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Principle of data communication; communication architecture and protocols; 
+local and wide area networks; internetworking with TCP/IP and the internet; network 
+programming; web application programming interface; related and emerging network 
+technologies.</rdfs:comment>
+        <rdfs:comment xml:lang="th">หลกั การการส่อื สารขอ้ มลู   สถาปัตยกรรมการส่อื สารและโพรโทคอล  เครอื ขา่ ย
+คอมพวิ เตอรเ์ ฉพาะทแ่ี ละบรเิ วณกวา้ ง  การเช่อื มโยงโครงขา่ ยดว้ ยทซี พี ีไอพแี ละอนิ เทอรเ์ น็ต/
+การโปรแกรมเครอื ข่าย ส่วนต่อประสานโปรแกรมประยกุ ตบ์ นเวบ็  เทคโนโลยดี า้ นเครอื ขา่ ยท่ี
+เกย่ี วขอ้ งและเทคโนโลยสี มยั ใหม่</rdfs:comment>
+        <rdfs:label xml:lang="en">Computer Network Architecture and Programming</rdfs:label>
+        <rdfs:label xml:lang="th">สถาปัตยกรรมเครอืขา่ยคอมพวิเตอรแ์ละการโปรแกรม</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219231 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219231">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219217"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Data modeling and the entity-relationship models; relational data models; SQL 
+and query processing; constraints, views, and indexes; database design theory and 
+normalization; transaction and concurrency; storage and file structures; object-relational 
+model; NoSQL databases; database application development.</rdfs:comment>
+        <rdfs:comment xml:lang="th">โมเดลข้อมูลและโมเดลแบบองค์ประกอบและความสัมพันธ์ โมเดลข้อมูลแบบ
+ความสมั พนั ธ ์ ภาษาเอสควิ แอลและการประมวลผลการเรยี กค้นขอ้ มลู   เง่อื นไข มุมมองและ
+ดชั นี  ทฤษฎกี ารออกแบบฐานขอ้ มลู และการท าให้เป็นมาตรฐาน  รายการเปลย่ี นแปลงและ
+การท างานในภาวะพรอ้ มกนั   หน่วยเกบ็ ขอ้ มลู และโครงสรา้ งแฟ้ม  โมเดลวตั ถุความสมั พนั ธ์  
+ฐานขอ้ มลู ทไ่ี มไ่ ดเ้ ป็นแบบเอสควิ แอล  การพฒั นาโปรแกรมประยกุ ตฐ์ านขอ้ มลู</rdfs:comment>
+        <rdfs:label xml:lang="en">Database Systems for Software and Knowledge Engineers</rdfs:label>
+        <rdfs:label xml:lang="th">ระบบฐานขอ้มลูสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219243 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219243">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Software  requirement  analysis  and  specifications;  application  of  software 
+process into development life cycle; software development that accurately fulfills the 
+requirements; use of software principles in the design phase; use of software patterns 
+in software implementation; software creation that is open for changes in the future.</rdfs:comment>
+        <rdfs:comment xml:lang="th">การวเิ คราะห์ความต้องการและขอ้ ก าหนดในการพฒั นาซอฟต์แวร ์ การประยุกต์ใช้
+ขนั้ ตอนในการพฒั นาซอฟต์แวร์ การออกแบบซอฟต์แวร์เพ่อื รองรบั กบั ความต้องการและ
+ขอ้ ก าหนด การประยุกต์ใช้รูปแบบการออกแบบเพ่อื การออกแบบซอฟต์แวร ์ การใช้รูปแบบ
+การออกแบบเพ่ือพฒั นาซอฟต์แวร์ให้มปี ระสิทธิภ์ าพ การออกแบบซอฟต์แวร์ท่ีสามารถ
+รบั รองกบั ความเปลย่ี นแปลงภายในอนาคตได ้</rdfs:comment>
+        <rdfs:label xml:lang="en">Software Specification and Design</rdfs:label>
+        <rdfs:label xml:lang="th">ขอ้กาํหนดและการออกแบบซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219245 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219245">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="th"></rdfs:comment>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="th">กระบวนการพฒันาซอฟตแ์วรเ์ชงิเดย่ีว</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219266 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219266">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</yearAllowed>
+        <rdfs:comment xml:lang="en">Knowledge  characteristics;  concept  and  process  of  knowledge  acquisition; 
+knowledge sources architecture of knowledge-based system; knowledge engineering 
+tools; knowledge cycle, knowledge management; knowledge management processes; 
+knowledge  management  strategies;  knowledge  management  tools  and  techniques; 
+relations between organizational culture and knowledge management.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ลกั ษณะเฉพาะของความร ู้ แนวคดิ และกระบวนการเกบ็ เกย่ี วความร ู้ แหล่งความร ู้
+สถาปัตยกรรมของระบบองิ ความร ู้ เครอ่ื งมอื สา  หรบั วศิ วกรรมความร ู้ วฏั จกั รของความร ู้ การ
+จดั การความร ู้ กระบวนการจดั การความร ู้ โอกาสในการจดั การความรใู้ นองคก์ รขนาดใหญ่        
+กลยทุ ธก์ ารจดั การความร ู้ เทคนิคและเครอ่ื งมอื การจดั การความร ู้ ความสมั พนั ธร์ ะหว่าง
+วฒั นธรรมองคก์ รกบั การจดั การความร ู้</rdfs:comment>
+        <rdfs:label xml:lang="en">Knowledge Engineering and Knowledge Management I</rdfs:label>
+        <rdfs:label xml:lang="th">วศิวกรรมความรแู้ละการจดัการความรู้I</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219313 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219313">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Principle  concepts  of  communication;  communication  within  the  teams; 
+communication with customers and stakeholders; strategic communication model to 
+identify  objectives,  analyze  audience;  message  design  for  diverse  and  resistant 
+audiences and information presentation in a credible and convincing way; practices in 
+various situations related to topics in the software and knowledge engineering field.</rdfs:comment>
+        <rdfs:comment xml:lang="th">แนวคดิ หลกั ของการส่อื สาร การส่อื สารภายในกลุ่มงาน การส่อื สารกบั ลูกค้าและผู้มี
+ส่วนได้ส่วนเสยี  รูปแบบการส่อื สารเชงิ กลยุทธ์เพ่อื ระบุวตั ถุประสงค์และวเิ คราะห์ผู้ฟัง การ
+ออกแบบขอ้ ความส าหรบั ผู้ฟังท่มี คี วามหลากหลายและวธิ นี  าเสนอขอ้ มูลดงั กล่าวด้วยความ
+น่าเช่อื ถอื  การฝึกปฏบิ ตั กิ ารในสถานการณ์ต่าง ๆ ท่เี ก่ยี วขอ้ งในสาขาวศิ วกรรมซอฟต์แวร์
+และความร ู้</rdfs:comment>
+        <rdfs:label xml:lang="en">Communication Skills for Software and Knowledge Engineers</rdfs:label>
+        <rdfs:label xml:lang="th">ทกัษะการสอ่ืสารสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219325 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219325">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219243"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Philosophies  and  principles  of  information  security;  information  security 
+standards;  relationships  between  business  requirements  and  software  security 
+requirements; relationships between information security policies and software security 
+requirements; enterprise (information system) architecture and its security extension; 
+secure software design; secure coding; software security testing; secure software 
+installation  and  configuration;  current  best  practices  in  software  security;  laws 
+concerning information systems; laws concerning IT professionals, code of ethics; 
+professionalism.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ปรชั ญาและหลกั การด้านการรกั ษาความมนั่ คงปลอดภยั สารสนเทศ มาตรฐานด้าน
+การรกั ษาความมนั่ คงปลอดภยั สารสนเทศ ความสมั พนั ธร์ ะหว่างความต้องการทางธุรกิจกบั
+ความต้องการด้านความมงั่ คงปลอดภยั ของซอฟต์แวร์ ความสมั พนั ธ์ระหว่างนโยบายด้าน
+ความมัน่ คงสารสนเทศกับความต้องการด้านความมัง่ คงปลอดภัยของซอฟต์แวร์ 
+สถาปัตยกรรมระบบสารสนเทศระดบั องคก์ รและส่วนขยายดา้ นการรกั ษาความมงั่คงปลอดภยั  
+การออกแบบซอฟต์แวร์ให้มคี วามมนั่ คงปลอดภยั  การเขยี นเน้ือโปรแกรมให้มคี วามมนั่ คง
+ปลอดภยั  การทดสอบความมนั่ คงปลอดภยั ของซอฟต์แวร ์ การตดิ ตงั้ และปรบั แต่งซอฟต์แวร์
+อย่างมนั่ คงปลอดภยั  วธิ ปี ฏบิ ตั ิท่ดี ที ่สี ุดในปัจจุบนั เก่ยี วกบั การรกั ษาความมนั่ คงปลอดภัย
+ซอฟต์แวร์ กฎหมายเก่ียวข้องกับระบบสารสนเทศ กฎหมายเก่ียวข้องกับวิชาชีพด้าน
+สารสนเทศ จรรยาบรรณวชิ าชพี  ความเป็นมอื อาชพี</rdfs:comment>
+        <rdfs:label xml:lang="en">Software Development Security</rdfs:label>
+        <rdfs:label xml:lang="th">ความมนั่คงปลอดภยัในการพฒันาซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219335 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219335">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219231"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Data types; analog and digital data; data collection; remote data acquisition; 
+IoT; questionnaire and survey; data cleansing; data connectivity; data sampling; data    
+transformation; data source management; database connectivity; data visualization.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ประเภทของขอ้ มลู   ขอ้ มลู แอนะลอ็ กและดจิ ทิ ลั   การจดั เกบ็ ขอ้ มลู   การเกบ็ ขอ้ มลู
+ระยะไกล ไอโอท ีแบบสอบถามและแบบสา  รวจ  ชา  ระขอ้ มลู เบอ้ื งตน้  ตวั เช่อื มต่อขอ้ มลู  การสุ่ม
+ขอ้ มลู   ตวั แปลงขอ้ มลู   การจดั การขอ้ มลู หลายแหล่ง  การเช่อื มต่อกบั ฐานขอ้ มลู   การอธบิ าย
+ขอ้ มลู ดว้ ยภาพ</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Acquisition and Integration</rdfs:label>
+        <rdfs:label xml:lang="th">การนําเขา้และรวบรวมขอ้มลู</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219345 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219345">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219245"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Basic  concepts  of  software  verification  and  validation;  component  testing; 
+integration testing; system testing and user acceptance testing; coverage analysis;    
+non-functional testing;  review techniques;  static analysis of software; defect reporting.</rdfs:comment>
+        <rdfs:comment xml:lang="th">มโนทศั น์พน้ื ฐานเกย่ี วกบั การทวนสอบและการตรวจสอบซอฟตแ์ วร ์ การทดสอบท่ี
+ระดบั ชน้ิ ส่วน การทดสอบการเช่อื มต่อ การทดสอบระบบและการทดสอบการยอมรบั ของผใู้ ช ้
+การวเิ คราะหค์ วามครอบคลุม  การทดสอบเชงิ ไมเ่ ป็นฟังกช์ นั่   เทคนิคการทบทวน  การ
+วเิ คราะหซ์ อฟตแ์ วรเ์ ชงิ สถติ ย ์ การรายงานความผดิ พลาด</rdfs:comment>
+        <rdfs:label xml:lang="en">Software Verification and Validation Laboratory</rdfs:label>
+        <rdfs:label xml:lang="th">ปฏบิตักิารการทวนสอบและการตรวจสอบซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219346 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219346">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Standard processes to manage software project; timeline, budget and resource 
+planning; work breakdown structure; project monitoring and control; measurement and 
+analysis; configuration management; test and deployment steps.</rdfs:comment>
+        <rdfs:comment xml:lang="th">การจดั การกระบวนการและโครงการซอฟตแ์ วร ์ การก าหนดแผน  ตารางเวลา 
+งบประมาณ และ ทรพั ยากรการแตกแผนการท างาน การตดิ ตามและควบคุม การวดั และการ
+วเิ คราะห ์ การควบคุมโครงแบบ การทดสอบ และ ขนั้ ตอนการพฒั นาซอฟตแ์ วร์</rdfs:comment>
+        <rdfs:label xml:lang="en">Software Process and Project Management</rdfs:label>
+        <rdfs:label xml:lang="th">การจดัการกระบวนการและโครงการซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219366 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219366">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219266"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Basic  principle  of  knowledge  representation  and  its  reasoning  tasks; 
+characteristics, advantage, and limitations of various knowledge representation: logic, 
+predicate  calculus,  fuzzy  logic,  semantic  networks,  frame,  ontology;  process  of 
+transforming unstructured knowledge to knowledge representation.</rdfs:comment>
+        <rdfs:comment xml:lang="th">หลกั การพน้ื ฐานการแทนความรใู้ หอ้ ยใู่ นรปู ทค่ี อมพวิ เตอรส์ ามารถประมวลผลไดแ้ ละ
+การหาเหตุผล  คุณลกั ษณะตวั แทนความร ู้ ขอ้ ไดเ้ ปรยี บและขอ้ จา  กดั ของตวั แทนความรแู้ บบ
+ต่างๆ เช่น กฎตรรกศาสตร ์การคา  นวณเชงิ เพรดเิ คต การแทนความรแู้ บบคลุมเครอื  โครงขา่ ย
+ความหมาย  เฟรม  การแทนความรโู้ ดยใชภ้ ววทิ ยา  กระบวนการแทนความรแู้ บบไมม่ ี
+โครงสรา้ ง ใหอ้ ยใู่ นรปู แบบของตวั แทนความรู้</rdfs:comment>
+        <rdfs:label xml:lang="en">Knowledge Engineering and Knowledge Management II</rdfs:label>
+        <rdfs:label xml:lang="th">วศิวกรรมความรแู้ละการจดัการความรู้II</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219367 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219367">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219366"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Basic concepts of data analytics; techniques and models; ethics and privacy 
+issues; data mining software suite; data mining methodologies; data pre-processing 
+techniques; data regression and classification techniques; data clustering techniques; 
+link  and  association  discovery  techniques,  data  mining  applications;  implementing 
+analytics within an organization; un-structured and complex data analytics; big data 
+analytics; data analytics trends.</rdfs:comment>
+        <rdfs:comment xml:lang="th">แนวคดิ พน้ื ฐานของการวเิ คราะหข์ อ้ มลู  เทคนิคและแบบจา  ลอง ประเดน็ ดา้ นจรยิ ธรรม
+และความเป็นส่วนตวั   ชุดซอฟตแ์ วรเ์ หมอื งขอ้ มลู   วธิ กี ารท าเหมอื งขอ้ มลู   เทคนิคการเตรยี ม
+ขอ้ มลู  เทคนิคการจดั กลุ่มขอ้ มลู  เทคนิคการแบ่งกลุ่มขอ้ มลู  เทคนิคการคน้ หาความสมั พนั ธบ์ น
+ขอ้ มลู  การประยกุ ตก์ ารทา  เหมอื งขอ้ มลู  การวเิ คราะหข์ อ้ มลู ทม่ี รี ปู แบบซบั ซอ้ น การวเิ คราะห์
+ขอ้ มลู ขนาดใหญ่มาก แนวโน้มและทศิ ทางของเทคนิคการวเิ คราะหข์ อ้ มลู</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Analytics</rdfs:label>
+        <rdfs:label xml:lang="th">การวเิคราะหข์อ้มลู</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219382 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219382">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219243"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Psychological concept on interaction; user-experience design; human-computer 
+interface  design;  software  interaction;  hardware  interaction;  system  interaction; 
+development  tools;  interaction  assessment;  response-time  model;  user  document 
+development.</rdfs:comment>
+        <rdfs:comment xml:lang="th">แนวคดิ เชงิ จติ วทิ ยาของผใู้ ช ้ การพฒั นาประสบการณ์ของผใู้ ช ้ การออกแบบและสรา้ ง
+ระบบตดิ ต่อระหว่างผใู้ ชก้ บั คอมพวิ เตอร ์อตั รกริ ยิ าของฮารด์ แวรแ์ ละซอฟตแ์ วร ์ อตั รกริ ยิ าของ
+ระบบงาน  เครอ่ื งมอื สา  หรบั การพฒั นา  การประเมนิ คุณภาพ  โมเดลของเวลาการตอบสนอง 
+การท าค่มู อื</rdfs:comment>
+        <rdfs:label xml:lang="en">Interaction Design</rdfs:label>
+        <rdfs:label xml:lang="th">การออกแบบอนัตรกริยิา</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219395 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219395">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Design and management of software group projects; technical report writing; 
+literature  review  and  reference;  technical  report  presentation;  preparation  for  a 
+computer engineering project proposal; presentation of the project proposal.</rdfs:comment>
+        <rdfs:comment xml:lang="th">การออกแบบและการจดั การโครงงานวศิ วกรรม การเขยี นรายงานวชิ าการ การตรวจ
+และอา้ งองิ เอกสารวชิ าการ  การน าเสนอรายงานวชิ าการ    การเตรยี มขอ้ เสนอโครงงาน
+วศิ วกรรมคอมพวิ เตอร ์ การน าเสนอหวั ขอ้ โครงงาน</rdfs:comment>
+        <rdfs:label xml:lang="en">Innovative Software Group Project Preparation</rdfs:label>
+        <rdfs:label xml:lang="th">การเตรยีมการโครงงานกลุ่มนวตักรรมซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219412 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219412">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">General  text  writing;  project  proposal;  progress  and  final  report;  result 
+documentary;  summary;  critique;  research  paper;  literature  review;  bibliography; 
+software  tools  for  editing  and  submission  systems;  writing  brainstorm;  idea 
+organization; outlining; editing and proof reading; peer review; rewriting; feedback 
+conference between teacher and student.</rdfs:comment>
+        <rdfs:comment xml:lang="th">วธิ เี ขยี นบทความทวั่ ไป  ขอ้ เสนอโครงงาน  รายงานความคบื หน้าและรายงานสรุป
+โครงงาน  การแสดงผลลพั ธ ์ บทสรปุ   บทวจิ ารณ์  รายงานวจิ ยั   การทบทวนงานวจิ ยั  
+บรรณานุกรม  เครอ่ื งมอื ซอฟตแ์ วรส์ า  หรบั การตรวจแก้และการส่งผลงาน  วธิ กี ารระดมสมอง
+สา  หรบั การเขยี น    การเรยี บเรยี งความคดิ   การรา่ งแผนการเขยี น  การตรวจแก ้ การพสิ ูจน์
+อกั ษร  การทบทวนโดยผรู้ เู้ สมอกนั     การเรยี บเรยี งใหม ่ การประชุมรว่ มกนั เพ่อื รวบรวม
+ขอ้ เสนอแนะของงานเขยี นระหว่างผเู้ รยี นและผสู้ อน</rdfs:comment>
+        <rdfs:label xml:lang="en">Technical Writing for Software and Knowledge Engineers</rdfs:label>
+        <rdfs:label xml:lang="th">การเขยีนเชงิเทคนิคสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219449 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219449">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</yearAllowed>
+        <rdfs:comment xml:lang="en">Software architecture process; software quality attributes; software architecture 
+documentation; model-driven architecture; service-oriented architecture; architectural 
+design patterns; concurrent and networked object patterns; enterprise system patterns; 
+internet-based system patterns.</rdfs:comment>
+        <rdfs:comment xml:lang="th">กระบวนการสถาปัตยกรรมซอฟต์แวร์  ลกั ษณะประจ าเชงิ คุณภาพของซอฟต์แวร์   
+การเขยี นเอกสารสถาปัตยกรรมซอฟต์แวร์   สถาปัตยกรรมท่ขี บั เคล่อื นด้วยแบบจ าลอง   
+สถาปัตยกรรมเชงิ การบรกิ าร   รปู แบบการออกแบบเชงิ สถาปัตยกรรม   รปู แบบสา  หรบั วตั ถุ
+แบบเครือข่ายท่ีท างานจวบกัน  รูปแบบส าหรับระบบองค์ แบบรูปส าหรับระบบอิง 
+อนิ เทอรเ์ น็ต</rdfs:comment>
+        <rdfs:label xml:lang="en">Principle of Software Architecture</rdfs:label>
+        <rdfs:label xml:lang="th">แนวคดิหลกัสาํหรบัสถาปัตยกรรมซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219490 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219490">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</yearAllowed>
+        <rdfs:comment xml:lang="en">On the job training as a temporary according to the assigned project including 
+     Report and presentation.</rdfs:comment>
+        <rdfs:comment xml:lang="th">การปฏบิ ตั งิ านในลกั ษณะพนักงานชวั่ คราวตามโครงการทไ่ี ดร้ บั มอบหมาย ตลอดจน
+การจดั ทา  รายงานและการน าเสนอ</rdfs:comment>
+        <rdfs:label xml:lang="en">Cooperative Education</rdfs:label>
+        <rdfs:label xml:lang="th">สหกจิศกึษา</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219497 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219497">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</yearAllowed>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="th"></rdfs:comment>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="th">สมัมนาเชงิเทคนิคและปฎบิตัทิางวศิวกรรมซอฟตแ์วรแ์ละความรู้</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219499 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219499">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219395"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219490"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</yearAllowed>
+        <rdfs:comment xml:lang="th"></rdfs:comment>
+        <rdfs:comment xml:lang="en">(</rdfs:comment>
+        <rdfs:label xml:lang="en">Innovative Software Group Project</rdfs:label>
+        <rdfs:label xml:lang="th">โครงงานกลุ่มนวตักรรมซอฟตแ์วร์</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355111"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355112"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355113"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355204"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355206 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355206"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355xxx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01355xxx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</yearAllowed>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="th"></rdfs:comment>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="th">ภาษาองักฤษ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01385223 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01385223"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417167 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417167">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">Limits and continuity of functions, derivatives and applications, differentials, 
+integration and applications, polar coordinates , improper integrals, sequences and 
+series, mathematical induction.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ลมิ ติ และความต่อเน่ืองของฟังก์ชนั  อนุพนั ธแ์ ละการประยุกต์ ค่าเชงิ อนุพนั ธ ์ ปรพิ นั ธ์
+และการประยุกต์ ระบบพกิ ดั เชงิ ขวั้  ปรพิ นั ธ์ไม่ตรงแบบ ล าดบั และอนุกรม การอุปนัยเชิง
+คณติ ศาสตร ์</rdfs:comment>
+        <rdfs:label xml:lang="en">Engineering Mathematics I</rdfs:label>
+        <rdfs:label xml:lang="th">คณิตศาสตรว์ศิวกรรมI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417168 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417168">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01417167"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">Vectors and solid analytic geometry, calculus of multivariables functions, 
+calculus of vectorvalued functions.</rdfs:comment>
+        <rdfs:comment xml:lang="th">เวกเตอรแ์ ละเรขาคณติ วเิ คราะหท์ รงตนั  แคลคลู สั ของฟังกช์ นั หลายตวั แปร แคลคลู สั
+ของ ฟังกช์ นั ค่าเวกเตอร ์</rdfs:comment>
+        <rdfs:label xml:lang="en">Engineering Mathematics II</rdfs:label>
+        <rdfs:label xml:lang="th">คณิตศาสตรว์ศิวกรรมII</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">Mechanics, harmonic motion, waves, fluid mechanics, thermodynamics.</rdfs:comment>
+        <rdfs:comment xml:lang="th">กลศาสตร ์ การเคล่อื นทแ่ี บบฮารม์ อนิก คล่นื  กลศาสตรข์ องไหล อุณหพลศาสตร ์</rdfs:comment>
+        <rdfs:label xml:lang="en">General Physics I</rdfs:label>
+        <rdfs:label xml:lang="th">ฟิสกิสท์วั่ไปI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420112">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420111"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">Electromagnetism,  electromagnetic  waves,  optics,  introduction  to  modern 
+physics and nuclear physics.</rdfs:comment>
+        <rdfs:comment xml:lang="th">ไฟฟ้าแมเ่ หลก็  คล่นื แมเ่ หลก็ ไฟฟ้า ทศั นศาสตร ์ ฟิสกิ สย์ คุ ใหมเ่ บอ้ื งตน้  และนิวเคลยี ร์
+ฟิสกิ ส ์</rdfs:comment>
+        <rdfs:label xml:lang="en">General Physics II</rdfs:label>
+        <rdfs:label xml:lang="th">ฟิสกิสท์วั่ไปII</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420113">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420111"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420117"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">I</rdfs:comment>
+        <rdfs:comment xml:lang="th">ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป</rdfs:comment>
+        <rdfs:label xml:lang="en">Laboratory in Physics I</rdfs:label>
+        <rdfs:label xml:lang="th">ปฏบิตักิารฟิสกิส์I</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420112"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420113"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420118"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en">II</rdfs:comment>
+        <rdfs:comment xml:lang="th">หรอื พรอ้ มกนั   
+ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป</rdfs:comment>
+        <rdfs:label xml:lang="en">Laboratory in Physics II</rdfs:label>
+        <rdfs:label xml:lang="th">ปฏบิตักิารฟิสกิส์II</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420117 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420117"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01420118"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999011 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999011"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999021 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999021"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999023 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999023"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999032 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999032"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999034 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999034"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999041 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999041"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
+        <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
+        <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="th"></rdfs:comment>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="th">ศาสตรแ์หง่แผน่ดนิ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999141 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01999141"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#B+"/>
     
 
 
@@ -593,13 +2411,6 @@ lambda expression; design patterns; principles of software engineering.</rdfs:co
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#I"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#N"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#P"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
         </owl:distinctMembers>
     </rdf:Description>
     
