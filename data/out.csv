@@ -1,0 +1,43 @@
+id,name_th,credits,name_en,year_start,semester
+01219114,การโปรแกรมคอมพวิเตอร์I,3(3-0-6),Computer Programming I,1,1
+01219115,ปฏบิตักิารการโปรแกรมคอมพวิเตอร์I,1(0-3-2),Computer Programming Laboratory I,1,1
+01417167,คณิตศาสตรว์ศิวกรรมI,3(3-0-6),N,1,1
+01420111,ฟิสกิสท์วั่ไปI,3(3-0-6),General Physics I,1,1
+01420113,ปฏบิตักิารฟิสกิส์I,1(0-3-2),N,1,1
+01999111,ศาสตรแ์หง่แผน่ดนิ,2(2-0-4),N,1,1
+01355xxx,ภาษาองักฤษ,3(-,N,1,1
+01204211,คณิตศาสตรเ์ตม็หน่วยและพชีคณิตเชงิเสน้,4(4-0-8),Discrete Mathematics and Linear Algebra,1,2
+01219116,การโปรแกรมคอมพวิเตอร์II,3(3-0-6),Computer Programming II,1,2
+01219117,ปฏบิตักิารการโปรแกรมคอมพวิเตอร์II,1(0-3-2),Computer Programming Laboratory II,1,2
+01417168,คณิตศาสตรว์ศิวกรรมII,3(3-0-6),Engineering Mathematics II,1,2
+01420112,ฟิสกิสท์วั่ไปII,3(3-0-6),General Physics II,1,2
+01420114,ปฏบิตักิารฟิสกิส์II,1(0-3-2),Laboratory in Physics II,1,2
+01175xxx,กจิกรรมพลศกึษา,1(0-2-1),N,1,2
+01355xxx,ภาษาองักฤษ,3(,N,1,2
+01219211,คา่ยฝึกพฒันาซอฟตแ์วร์,1(0-3-2),Software Development Training Camp,2,1
+01219212,ปฏบิตักิารโครงสรา้งขอ้มลูและขนั้ตอนวธิี,1(0-3-2),Data Structure and Algorithm Laboratory,2,1
+01219214,ความน่าจะเป็นและสถติสิาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Probability and Statistics for Software and Knowledge Engineers,2,1
+01219217,โครงสรา้งขอ้มลูและขนั้ตอนวธิีI,3(3-0-6),Data Structure and Algorithm I,2,1
+01219224,สถาปัตยกรรมเครอืขา่ยคอมพวิเตอรแ์ละการโปรแกรม,3(3-0-6),Computer Network Architecture and Programming,2,1
+01219245,กระบวนการพฒันาซอฟตแ์วรเ์ชงิเดย่ีว,3(2-3-6),N,2,1
+01219218,โครงสรา้งขอ้มลูและขนั้ตอนวธิีII,3(3-0-6),Data Structure and Algorithm II,2,2
+01219222,พน้ืฐานของระบบคอมพวิเตอร์,3(3-0-6),Introduction to Computer Systems,2,2
+01219223,ปฏบิตักิารระบบคอมพวิเตอร์,1(0-3-2),Computer System Laboratory,2,2
+01219231,ระบบฐานขอ้มลูสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Database Systems for Software and Knowledge Engineers,2,2
+01219243,ขอ้กาํหนดและการออกแบบซอฟตแ์วร์,3(2-3-6),Software Specification and Design,2,2
+01219266,วศิวกรรมความรแู้ละการจดัการความรู้I,3(3-0-6),Knowledge Engineering and Knowledge Management I,2,2
+01219335,การนําเขา้และรวบรวมขอ้มลู,3(3-0-6),N,3,1
+01219345,ปฏบิตักิารการทวนสอบและการตรวจสอบซอฟตแ์วร์,1(0-3-2),Software Verification and Validation Laboratory,3,1
+01219346,การจดัการกระบวนการและโครงการซอฟตแ์วร์,3(2-3-6),Software Process and Project Management,3,1
+01219366,วศิวกรรมความรแู้ละการจดัการความรู้II,3(3-0-6),Knowledge Engineering and Knowledge Management II,3,1
+01219382,การออกแบบอนัตรกริยิา,3(3-0-6),Interaction Design,3,1
+01219313,ทกัษะการสอ่ืสารสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,1(0-3-2),Communication Skills for Software and Knowledge Engineers,3,2
+01219325,ความมนั่คงปลอดภยัในการพฒันาซอฟตแ์วร์,3(3-0-6),Software Development Security,3,2
+01219367,การวเิคราะหข์อ้มลู,3(3-0-6),Data Analytics,3,2
+01219395,การเตรยีมการโครงงานกลุ่มนวตักรรมซอฟตแ์วร์,1(0-3-2),Innovative Software Group Project Preparation,3,2
+01219412,การเขยีนเชงิเทคนิคสาํหรบัวศิวกรซอฟตแ์วรแ์ละความรู้,3(3-0-6),Technical Writing for Software and Knowledge Engineers,3,2
+01219449,แนวคดิหลกัสาํหรบัสถาปัตยกรรมซอฟตแ์วร์,3(2-3-6),Principle of Software Architecture,3,2
+01219490,สหกจิศกึษา,9,N,4,1
+01219497,สมัมนาเชงิเทคนิคและปฎบิตัทิางวศิวกรรมซอฟตแ์วรแ์ละความรู้,1(0-3-2),N,4,2
+01219499,โครงงานกลุ่มนวตักรรมซอฟตแ์วร์,3(2-3-6),Innovative Software Group Project,4,2
+01355xxx,ภาษาองักฤษ,3(,N,4,2
