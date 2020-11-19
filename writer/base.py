@@ -21,4 +21,4 @@ def get_enrollment_name(student_id: str, subject_id: str, year: str, semester: s
         raise ValueError(f"Invalid year: '{year}'")
     if semester not in (1, 2):
         raise ValueError(f"Invalid semester: '{semester}'")
-    return '_'.join([get_student_name(student_id), get_subject_name(subject_id), year, semester])
+    return '_'.join([get_student_name(student_id), get_subject_name(subject_id), str(year), str(semester)])

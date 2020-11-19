@@ -3,8 +3,7 @@ import csv
 
 from writer.base import get_student_name
 
-template = ''
-"""
+template = """
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#{} -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#{}">

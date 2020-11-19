@@ -3,8 +3,7 @@ import csv
 
 from writer.base import get_enrollment_name, get_subject_name, get_student_name
 
-template = ''
-"""
+template = """
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#{} -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#{}">
@@ -31,7 +30,7 @@ def main(infile: str, outfile: str):
                 enrollment_name,
                 row['grade'],
                 get_student_name(row['student_id']),
-                get_subject_name(row['subjectid'])
+                get_subject_name(row['subject_id'])
             )
             all_indivs.append(individual)
 
