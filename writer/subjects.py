@@ -35,12 +35,12 @@ def main(infile: str, outfile: str):
         all_indivs = []
         for row in data:
             indv_name = get_subject_name(row['id'])
-            pres = [p.strip() for p in row['prerequisites'].split(',')]
+            pres = [p.strip() for p in row['prerequisites'].split(',') if p]
             if pres:
                 prereqs = '\n'.join(prereq.format(get_subject_name(sub)) for sub in pres)
             else:
                 prereqs = none_prereq
-            coregs = [p.strip() for p in row['coregister'].split(',')]
+            coregs = [p.strip() for p in row['coregister'].split(',') if p]
             if coregs:
                 musts = '\n'.join(must_register_with.format(get_subject_name(sub)) for sub in coregs)
             else:

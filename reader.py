@@ -31,14 +31,14 @@ d = {}
 
 t = open("data/dump.txt", "r").read()
 for en_info in re.findall(r, t, flags=re.MULTILINE):
-    prereq = en_info[4].rstrip().lstrip().replace(" และ ", ",")
+    prereq = en_info[4].rstrip().lstrip().replace(" และ ", ",").replace("หรอื พรอ้ มกนั ", "").replace("หรอื", ",").replace(", พรอ้ มกนั", "")
     coreg = en_info[5].rstrip().lstrip()
     desc_th = en_info[6].rstrip().lstrip()
     desc_en = en_info[7].rstrip().lstrip()
     d[en_info[0].replace("*", "")] = en_info[3].rstrip().replace("  ", " "), en_info[2], prereq, coreg, desc_th, desc_en
 
 with open('data/out.csv', 'w') as f:
-    print("id,name_th,credits,name_en,year_start,semester,prereq,coreg,desc_th,desc_en", file=f)
+    print("id,name_th,credits,name_en,year_start,semester,prerequisites,coregister,description_th,description_en", file=f)
     ld = []
     for i in range(3):
         page = pdf.pages[i]
@@ -52,8 +52,8 @@ with open('data/out.csv', 'w') as f:
             if isinstance(extra, tuple):
                 j.extend([extra[0], str(last_year), str(last_sem), f'"{extra[2]}"', extra[3], f"\"{extra[4]}\"",
                           f"\"{extra[5]}\""])
-            elif not isinstance(extra, str):
-                j.extend(["N", str(last_year), str(last_sem), "N", "N", "N", "N"])
+            else:
+                j.extend(["", str(last_year), str(last_sem), "", "", "", ""])
             ld.append(','.join(j))
 
     print("\n".join(ld), file=f)

@@ -1,4 +1,4 @@
-id,name_th,credits,name_en,year_start,semester,prereq,coreg,desc_th,desc_en
+id,name_th,credits,name_en,year_start,semester,prerequisites,coregister,description_th,description_en
 01219114,การโปรแกรมคอมพวิเตอร์I,3(3-0-6),Computer Programming I,1,1,"",01219115,"การเขยี นโปรแกรมดว้ ยภาพ  ตวั แปร ทางเลอื ก การวนรอบ เมทธอด อาเรย ์ คลาส 
 การโปรแกรมเชงิ วตั ถุ การตดิ ต่อกบั ผใู้ ชโ้ ดยใชภ้ าพสญั ลกั ษณ์ การจดั การขอ้ มลู","Visual programming; variables; selection; iteration; methods; arrays; classes; 
 object-oriented programming; graphical user interface; data handling."
@@ -10,9 +10,9 @@ object-oriented programming; graphical user interface; data handling."
 integration and applications, polar coordinates , improper integrals, sequences and 
 series, mathematical induction."
 01420111,ฟิสกิสท์วั่ไปI,3(3-0-6),General Physics I,1,1,"",,"กลศาสตร ์ การเคล่อื นทแ่ี บบฮารม์ อนิก คล่นื  กลศาสตรข์ องไหล อุณหพลศาสตร ์","Mechanics, harmonic motion, waves, fluid mechanics, thermodynamics."
-01420113,ปฏบิตักิารฟิสกิส์I,1(0-3-2),Laboratory in Physics I,1,1,"01420111 หรอื พรอ้ มกนั  หรอื  01420117 หรอื พรอ้ มกนั",,"ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป","I"
-01999111,ศาสตรแ์หง่แผน่ดนิ,2(2-0-4)
-01355xxx,ภาษาองักฤษ,3(-
+01420113,ปฏบิตักิารฟิสกิส์I,1(0-3-2),Laboratory in Physics I,1,1,"01420111  ,  01420117 ",,"ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป","I"
+01999111,ศาสตรแ์หง่แผน่ดนิ,2(2-0-4),,1,1,,,,
+01355xxx,ภาษาองักฤษ,3(-,,1,1,,,,
 01204211,คณิตศาสตรเ์ตม็หน่วยและพชีคณิตเชงิเสน้,4(4-0-8),Discrete Mathematics and Linear Algebra,1,2,"",,"เซต ลา  ดบั  และฟังกช์ นั  ตรรกศาสตร ์ การเตบิ โตของฟังกช์ นั  วธิ กี ารพสิ ูจน์และอุปนยั
 วธิ ที างคณติ ศาสตร ์ นิยามและขนั้ ตอนวธิ แี บบเรยี กซ้า    วธิ กี ารนับและความสมั พนั ธแ์ บบ
 ปรากฏซ้า   ความสมั พนั ธ ์ความรเู้ บอ้ื งตน้ เกย่ี วกบั ทฤษฎกี ราฟ  ปรภิ ูมเิวกเตอรแ์ ละการตงั้ ฉาก  
@@ -35,10 +35,10 @@ calculus of vectorvalued functions."
 01420112,ฟิสกิสท์วั่ไปII,3(3-0-6),General Physics II,1,2,"01420111",,"ไฟฟ้าแมเ่ หลก็  คล่นื แมเ่ หลก็ ไฟฟ้า ทศั นศาสตร ์ ฟิสกิ สย์ คุ ใหมเ่ บอ้ื งตน้  และนิวเคลยี ร์
 ฟิสกิ ส ์","Electromagnetism,  electromagnetic  waves,  optics,  introduction  to  modern 
 physics and nuclear physics."
-01420114,ปฏบิตักิารฟิสกิส์II,1(0-3-2),Laboratory in Physics II,1,2,"01420113,01420112 หรอื พรอ้ มกนั  หรอื  01420118",,"หรอื พรอ้ มกนั   
+01420114,ปฏบิตักิารฟิสกิส์II,1(0-3-2),Laboratory in Physics II,1,2,"01420113,01420112  ,  01420118",,"หรอื พรอ้ มกนั   
 ปฏบิ ตั กิ ารสา  หรบั วชิ าฟิสกิ สท์ วั่ ไป","II"
-01175xxx,กจิกรรมพลศกึษา,1(0-2-1)
-01355xxx,ภาษาองักฤษ,3(
+01175xxx,กจิกรรมพลศกึษา,1(0-2-1),,1,2,,,,
+01355xxx,ภาษาองักฤษ,3(,,1,2,,,,
 01219211,คา่ยฝึกพฒันาซอฟตแ์วร์,1(0-3-2),Software Development Training Camp,2,1,"",,"ค่ายเพมิ่ พนู ทกั ษะการพฒั นาโปรแกรมไมต่ ่า  กว่า 48 ชวั่ โมง","Program development skill enhancement camp, at least"
 01219212,ปฏบิตักิารโครงสรา้งขอ้มลูและขนั้ตอนวธิี,1(0-3-2),Data Structure and Algorithm Laboratory,2,1,"01204211, 01219114,01219115",01219217,"ปฏบิ ตั กิ ารส าหรบั วชิ า 01219217 โครงสรา้ งขอ้ มลู และขนั้ ตอนวธิ  ี","I   
                Laboratory for"
@@ -64,7 +64,7 @@ complexity analysis, greedy algorithms, divide-and-conquer techniques."
 local and wide area networks; internetworking with TCP/IP and the internet; network 
 programming; web application programming interface; related and emerging network 
 technologies."
-01219245,กระบวนการพฒันาซอฟตแ์วรเ์ชงิเดย่ีว,3(2-3-6)
+01219245,กระบวนการพฒันาซอฟตแ์วรเ์ชงิเดย่ีว,3(2-3-6),,2,1,,,,
 01219218,โครงสรา้งขอ้มลูและขนั้ตอนวธิีII,3(3-0-6),Data Structure and Algorithm II,2,2,"01219217",,"ขอ้ มลู ชนิดนามธรรมพน้ื ฐาน ไดแ้ ก่ การทา  แฮชชงิ่  ดกิ ชนั นาร ีแถวคอยแบบมลี  าดบั  
 ขนั้ ตอนวธิ ใี นสา  หรบั แกป้ ัญหาทซ่ี บั ซอ้ นยงิ่ ขน้ึ  ไดแ้ ก่ การหาระยะทางสนั้ ทส่ี ุด ปัญหาตน้ ไม ้
 สแปน  การโปรแกรมแบบพลวตั  ิ ปัญหาเชงิ การจดั  ปัญหากราฟ ปัญหาเอน็ พบี รบิ ูรณ์","Abstract data types: hashing, dictionary, priority queue; design and analysis 
@@ -195,6 +195,6 @@ internet-based system patterns."
 01219490,สหกจิศกึษา,9,Cooperative Education,4,1,"",,"การปฏบิ ตั งิ านในลกั ษณะพนักงานชวั่ คราวตามโครงการทไ่ี ดร้ บั มอบหมาย ตลอดจน
 การจดั ทา  รายงานและการน าเสนอ","On the job training as a temporary according to the assigned project including 
      Report and presentation."
-01219497,สมัมนาเชงิเทคนิคและปฎบิตัทิางวศิวกรรมซอฟตแ์วรแ์ละความรู้,1(0-3-2)
+01219497,สมัมนาเชงิเทคนิคและปฎบิตัทิางวศิวกรรมซอฟตแ์วรแ์ละความรู้,1(0-3-2),,4,2,,,,
 01219499,โครงงานกลุ่มนวตักรรมซอฟตแ์วร์,3(2-3-6),Innovative Software Group Project,4,2,"01219395,01219490",,"","("
-01355xxx,ภาษาองักฤษ,3(
+01355xxx,ภาษาองักฤษ,3(,,4,2,,,,
