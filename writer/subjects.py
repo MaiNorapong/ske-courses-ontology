@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import csv
-import argparse
 
+from writer.base import get_subject_name
 
 template = ''
 """
@@ -26,13 +26,6 @@ prereq = '        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user
 none_prereq = '        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>'
 must_register_with = '        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#{}"/>'
 none_must = '        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>'
-
-
-def get_subject_name(id: str) -> str:
-    assert isinstance(id, str)
-    if len(id) != len('01219114'):
-        raise ValueError(f"Length of subject id is wrong! '{id}' (len={len(id)})")
-    return f's{id}'
 
 
 def main(infile: str, outfile: str):
@@ -66,6 +59,8 @@ def main(infile: str, outfile: str):
 
 
 if __name__ == '__main__':
+    import argparse
+
     parser = argparse.ArgumentParser(description='Write SKE course Ontology Subject individuals')
     parser.add_argument('infile', type=str, help='the csv file to read from')
     parser.add_argument('outfile', type=str, help='the output file')

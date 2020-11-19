@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+import argparse
+
+from writer import subjects
+from writer import enrollments
+from writer import students
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Write SKE course Ontology Subject individuals')
+    parser.add_argument('mode', type=str, help="can be 'subject', 'student', or 'enrollment'")
+    parser.add_argument('infile', type=str, help='the csv file to read from')
+    parser.add_argument('outfile', type=str, help='the output file')
+    args = parser.parse_args()
+    main = {
+        'subject': subjects.main,
+        'student': students.main,
+        'enrollment': enrollments.main,
+    }[args.mode]
+    main(args.infile, args.outfile)
