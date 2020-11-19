@@ -465,6 +465,17 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Fatalaijon_s01219114_2016_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Fatalaijon_s01219114_2016_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Enrollment"/>
+        <hasGrade rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#A"/>
+        <hasStudent rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Fatalaijon"/>
+        <hasSubject rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#I -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#I">
@@ -509,12 +520,12 @@ https://www.cpe.ku.ac.th/wp-content/uploads/2018/07/MKA2-SKE.pdf</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219114 -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219114">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
-        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
         <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
         <yearAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</yearAllowed>
         <rdfs:comment xml:lang="en">Visual programming; variables; selection; iteration; methods; arrays; classes;
@@ -527,9 +538,9 @@ object-oriented programming; graphical user interface; data handling.</rdfs:comm
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115 -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
         <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
         <semesterAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</semesterAllowed>
@@ -538,14 +549,13 @@ object-oriented programming; graphical user interface; data handling.</rdfs:comm
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219116 -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219116">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219116">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#Subject"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#None"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219114"/>
-        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115"/>
-        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219117"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+        <hasPrerequisite rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
+        <mustRegisterWith rdf:resource="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
         <rdfs:comment xml:lang="en">Induction and recursion; object-oriented programming; encapsulation; dynamic
 dispatching; interface; inheritance; subtyping; exception and exception handling;
 lambda expression; design patterns; principles of software engineering.</rdfs:comment>
@@ -558,9 +568,9 @@ lambda expression; design patterns; principles of software engineering.</rdfs:co
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219117 -->
+    <!-- http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219117"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219117"/>
     
 
 
@@ -588,8 +598,8 @@ lambda expression; design patterns; principles of software engineering.</rdfs:co
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219114"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#S01219115"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219114"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2020/SKE-courses#s01219115"/>
         </owl:distinctMembers>
     </rdf:Description>
     
